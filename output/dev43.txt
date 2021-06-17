@@ -1,0 +1,858 @@
+/proc/*/maps fragments too quickly compared to 2.4	0
+kernel BUG at fs/mpage.c:465!	0
+memory leak somewhere in toshiba_acpi	0
+Linux 2.6.11.10 + reiserfs + usrquota, reiserfs panic	0
+can't unload rd module after mounting and later umounting a (or several) ramdisk	0
+System complains "page allocation failure. order:0, mode:0x20" when running test case	0
+Ondemand governor makes system unstable	0
+r8169 - network dies.	0
+ext3 memory leaks (size-64 objects)	0
+kernel oops and crash with rtl8110/8169 + vlan	0
+synchronize_tsc_bp can zero the TSC during a lost ticks measurement	0
+Memory leak till the Method exit for each execution of If(TRUE)-Else/ElseIf	0
+Memory leak till the Method exit for each execution of Break	0
+Memory leak till the Method exit for each execution of Continue	0
+Releasing memory of the inside Method scopes surrounding Return operation is needed	0
+vanilla 2.6.15-rc1 - reiserfs panic when deleting a lot of big files	0
+ipw2200: NETDEV_TX_BUSY returned; driver should report queue full via ieee_device->is_queue_full.	0
+SiS 190 doesn't download files	0
+recent davej kernels (2.6.15-git*-base) eat my filesystem	0
+Oops when accessing SATA with device mapper on AMD 64 X2	0
+aic94xx/sas_class - panic due to NULL pointer dereference in sas_alloc_class()	0
+Initio sbp2 causes: "slab error in cache_free_debugcheck(): cache `size-512(DMA)': double free, or memory outside"  object was overwritten	0
+unregister_netdevice: waiting for ppp9 to become free. Usage count = 658	0
+ESP DMA and sbus (mainly in sparc32 but in sparc64 too)	0
+XFS corruption with Linux 2.6.16	0
+High Speed USB devices don't work when ehci_hcd loaded (nforce4)	0
+Overflow on 32bit archs in page_alloc.c, setup_per_zone_pages_min	0
+ACPI-CA memory leak due to optionally stored AML Object passed through "child" Method	0
+NFS client (10x) performance regression 2.6.14.7 -> all later kernels	0
+BUG: soft lockup detected on CPU#0! / ksoftirqd takse 100% CPU	0
+Kernel BUG at drivers/md/kcopyd.c:146 invalid opcode: 0000 [1] SMP	0
+Open of large file on 32-bit fails with EFBIG, should be EOVERFLOW	0
+Booting from nfsroot fails	1
+Enable DMI quirks on x86-64	1
+lockdep warning with LTP dio test (v2.6.24-rc6-125-g5356f66)	1
+IDE/ACPI related hibernation regression: Second attempt fails	1
+Oops during rmmod'ing modeuls sdhci, sr_mod, ricoh_mmc, mmc_core	1
+return code -22 when cifs mount is used mounting win2003 from Linux machine booted with 2.6.23 kernel. No issues when 2.6.19 is used	1
+aio_rw_vect_retry() should return partial write	1
+max_cstate VMware regression	1
+ACPI: fix acpi fan state set error	1
+remote control not working for the leadtek winfast 2000 xp rm tv tuner	1
+rmmod capidrv makes kernel oops and never returns	1
+radio-sf16fmr2 probably buggy - system inconsistent after probe	1
+hostap_cs_{resume,suspend}(): inconsequent NULL checking	1
+ACPI: processor throttling set error	1
+powersave governor does not scale down when power gets connected	1
+MGA video modes garbled	1
+kernel BUG in shrink_dcache_for_umount_subtree at shutdown	1
+BUG in current NFS4 code makes the system unusable	1
+kernel BUG at fs/buffer.c:1245!	1
+ext3 oops on unmount of corrupted image	1
+psmouse.c: GlidePoint at isa0060/serio1/input0 lost sync at byte 1	1
+Serverworks initialisation fails	1
+oops in extent code via ext4_fallocate	1
+I/O error when plugging/unplugging a second firewire disk	1
+regression: 100% io-wait with 2.6.24-rcX	1
+[PATCH] Fix 2.6.24-rc7 regression in asix.c	1
+probably softlockup	1
+Oops on boot from laptop mode writing to /proc/acpi/processor/CPU0/throttling	1
+fs/hfs/btree.c: new NULL dereference	1
+conversion of denormal floats to double is wrong	1
+crash in kmem_cache_init	1
+sky2 patch in 2.6.24-rc7-git6 breaks POST - commit 84cd2dfb04d23a961c5f537baa243fa54d0987ac	1
+[REGRESSION] 2.6.24-rc7: e1000: Detected Tx Unit Hang	1
+b43 module falls over	1
+Firewire Card Not Detected by JuJu Stack.	1
+radeonfb and Xpress 200m 5955	1
+Ext4 Oops with corrupted filesystem	1
+2.6.24-rc8 + patches:  CPU hot removal while CPU is online leaves system in bad state	1
+HOST_MSG_LOOP invalid SCB ff	1
+unregister_netdevice: waiting for [device] to become free	1
+Setting cpu_share to 1 freezes system	1
+possible recursive locking detected - eventpoll	1
+strange USB related problem	1
+PowerEdge 2600 modprobe ipmi_si hangs	1
+(tun dev) Impossible to deassert IFF_ONE_QUEUE or IFF_NO_PI	1
+Loopback address to eth0 interface changes scope permanently	1
+mdacon messing up console on hw w/o MDA adapter	1
+asix broken for speeds < 1000baseT/Full	1
+firewire-core: "kobject_add failed for fw5 with -EEXIST"	1
+MTD startup lock when using multiple nor flash chips	1
+key 49 and 94 send both 49 and 94 events on macbooks REGRESSION	1
+libata still broken for Pegasos on 2.6.24	1
+NULL pointer deref in journal_wait_on_commit_record	1
+KERNEL: assertion ((int)tcp_packets_in_flight(tp) >= 0) failed at net/ipv4/tcp_input.c (1274)	1
+rt61pci crashes in 2.6.24	1
+chattr sticky behaviour and Orlov block allocator	1
+sysfs files can be truncated	1
+general protection fault loading and unloading modules	1
+Driver 'sd' needs updating - please use bus_type methods	1
+BUG at net/ipv4/icmp.c:874	1
+Undocking Lenovo ThinkPad T61 causes oops	1
+commit 57a6a46aa26d6e39c62daf8b3b96e94f76e6846f makes system unbootable	1
+saa7134-alsa not working for FlyDVB-S LR300	1
+budget frontend driver tda10086 broken for TT-1401S	1
+ASUS DVD-E616A - drive side 80-wire cable detection failed	1
+Weird hang with NPTL and SIGPROF.	1
+Bug in jbd2_journal_commit_transaction with corrupted filesystem	1
+Unable to handle kernel NULL pointer dereference at 0000000000000010 (mptsas_probe_expander_phys+0x62/0x427)	1
+AHCI (JMICRON) hotplug doesn't work with esata drive	1
+ACPI Error (...): No handler for Region [ECOR] [EmbeddedControl] - thinkpad X61s	1
+acpi_osi="!Windows 2006" else cpufreq breaks - Fujitsu T2010	1
+Two vmsplice local root exploits	1
+Kernel local exploit (vmsplice)	1
+/proc/cpuinfo wrong about F00F bug, cache size on old Pentium	1
+Bug in bonding driver - Kernel oops whenever driver is loaded with max_bonds parameter	1
+Function keys stop working after 2.6.24-rc3 - FSC Esprimo Mobile V5505	1
+e1000e driver with 82566DM-2 controller doesn't strip crc from frames	1
+suspend to ram doesn't work anymore on Thinkpad T61 with Intel X3100	1
+[ata crash] Re: Linux 2.6.25-rc1	1
+[BUG] 2.6.25-rc1-git1 softlockup while bootup on powerpc	1
+2.6.25-rc1 xen pvops regression	1
+2.6.24-git2: Oracle 11g VKTM process enters R state on startup and is unkillable [still broken in 2.6.25-rc1]	1
+iwl3945: not only it periodically dies, it also BUG()s	1
+snd-indigoio does not load properly, fails with error -16	1
+[2.6.25-rc0 System no longer powers off after shutdown	1
+mount: could not  find filesystem	1
+kernel BUG at snapshot.c:464, caused by pfn_valid() lying	1
+2.6.24-git15 Keyboard Issue?	1
+My mm-mystery-crash has now sneaked into mainline	1
+[REGRESSION] 2.6.25-rc1 does not boot on Alpha	1
+2.6.25-rc1: volanoMark regression	1
+2.6.25-rc1 on Sun Ultra 40- HPET clocksource which causes it to hang	1
+print_vma_addr possible deadlock (was Re: Jeste jeden bug)	1
+2.6.25-rc1 panics on boot	1
+PROBLEM: 2.6.25-rc1-git2 freezes when accessing external USB hard disk (ehci-hcd)	1
+problem with starting 2.6.25-rc1 and latest git	1
+b43 driver cannot associate with AP	1
+2.6.24-git: kmap_atomic() WARN_ON()	1
+atiixp ide timeouts	1
+SCI interrupt storm - lost keystrokes - Acer Travelmate 4002	1
+wpa_supplicant doens't work and froze the computer	1
+firewire-sbp2: rescan-scsi-bus segfault, sbp2_scsi_slave_alloc NULL pointer dereference	1
+interactivity problems in -git4+	1
+[BUG] Linux 2.6.25-rc2 - Kernel Ooops while running dbench	1
+2.6.25-rc2 regression in rt61pci wireless driver	1
+Current git very broken on the Dreamcast	1
+2.6.25-rc1/2 CD/DVD burning broken	1
+2.6.25-rc[12] Video4Linux Bttv Regression	1
+[2.6.25-rc2] System freezes ca. 1 minute after logging into KDE	1
+Suspend doesn't work when SD card is inserted	1
+[2.6.25-rc2] e100: Trying to free already-free IRQ 11 during suspend ...	1
+[bug] uml doesn't boot under 2.6.25-rc1 host (was Re: 2.6.24-mm1 bugs)	1
+Unreal actual_brightness and other strange behavior of video module on FSC Amilo Pi 2515	1
+dm-raid1.c: fix NULL dereferences	1
+ipv4/fib_hash.c: fix NULL dereference	1
+net/9p/trans_virtio.c: kmalloc() enough memory	1
+message/fusion/mptbase.c: fix use-after-free's	1
+Spurious messages at boot, eventually hangs the usb subsustem	1
+keyboard not working after hibernate/resume	1
+Hang in md5_resync	1
+BUG: unable to handle kernel paging request: 2.6.24 xfs_file_readdir	1
+2.6.25-rc2 regression - hang on suspend	1
+regression: CD burning (k3b) went broke	1
+nozomi (driver for Qualcomm 3G PCMCIA adapter) crashes	1
+USB OOPS 2.6.25-rc2-git1	1
+2.6.25-rc[1,2]: failed to setup dm-crypt key mapping	1
+2.6.25-rc2: ohci1394 problem (MMIO broken)	1
+BUG?: "Cannot map mmconfig aperture"	1
+2.6.25-rc2 + smartd = hang	1
+gcc warning shows incorrect handling	1
+[BUG] 2.6.25-rc2-git8 fails to boot on 486 due to TSC breakage	1
+208c70a45624400fafd7511b96bc426bf01f8f5e breaks EC init	1
+2.6.25-rc2 Regression Thinkpad acpi	1
+new regression in 2.6.25-rc3: can't resume from suspend to ram, ata1 errors	1
+[BUG + PATCH/Bugfix] x86/lguest: fix pgdir pmd index calculation	1
+filesystem corruption on xfs after 2.6.25-rc1 (bisected, powerpc related?)	1
+[BUG] 2.6.25-rc3 hangs in early boot on Sun Ultra5	1
+r8169 hangs after some use with WoL enabled and "PME Event Wake up" enabled	1
+MacBookPro1,1 hangs on boot (pci=nommconf helps)	1
+No power-off / reboot with 2.6.25-rcX (up to -rc3) kernels	1
+no GSI - using IRQ 11 - Intel SC450NX - 2.6.23 regression	1
+fw_core_handle_bus_reset - BUG at lib/list_debug.c:33	1
+ieee1394: list corruption when unloading ohci1394	1
+Panic with all 2.6.24 kernels on a Thinkpad R31	1
+HP t5710 builtin radeon interrupt routed incorrectly	1
+fujitsu-laptop inconsistency due to hardware controlled fn-keys	1
+Kernel blocked after "ACPI: bus type pci registered"	1
+2.6.25-rc: complete lockup on boot/start of X (bisected)	1
+[BUG  kernel 2.6.25-rc3  IPV6]  ping6 -I eth0 ff02::1 causes system hang.	1
+bisected boot regression post 2.6.25-rc3.. please revert	1
+Emu10k1 Digital Output jack broken (wrong signal, sblive 5.1)	1
+Clocksource tsc is always unstable with 2.6.25-* kernels and CONFIG_NO_HZ=y on my box	1
+[2.6.25-rc3 regression] sysctl table check failed: /kernel/vsyscall64	1
+Some processes are dealocked when one cpu is set to offline	1
+netconsole broken	1
+general protection fault in modul xts in combination with via padlock in 2.6.24.2	1
+2.6.25-rc4 rcupreempt.h WARNINGs while suspend/resume	1
+xt_time_match() never matches on Sundays	1
+Commit 9f10d9ee breaks CD mounting/burning	1
+2.6.25-rc4: crash on boot when SMP enabled	1
+libata: allow LLDs w/o any reset method	1
+Treason uncloaked spams syslog with latest git	1
+Yum update of Kernel broke sis900 ethernet driver	1
+[regression]2.6.25-rc4: boot panic on alpha	1
+2.6.25 sysdev API problem	1
+2.6.25-rc4-git3: Handling of audio CDs broken on pata_ali	1
+[patch] fix ACPI boot regression (was: Re: Linux 2.6.25-rc5)	1
+kernel 2.6.24 acpi_ec_wait timeout if ac adapter is plugged in - Sony Vaio VGN-C2Z	1
+kacpid and kacpi_notify takes 90 % of cpu	1
+intel mtrr fixups apparently broke display and e1000 probe	1
+pciehp hang on hp ia64 rx6600	1
+netconsole still hangs	1
+rm command hangs	1
+lm_sensors causes ACPI errors and critical thermal shutdown	1
+in after successful ioperm() results in SEGV after kvm use	1
+xpad - Xbox360 Controller does not work, led related issue	1
+/sys/class/hwmon/hwmon0 is missing a device link	1
+[PATCH] i810fb: Fix console switch regression	1
+dm raid1: bitops bug	1
+Sun GEM (PCI) - network device doesn't work	1
+directory ctime not updated by rename	1
+suspend slow in 2.6.25-rc6	1
+regression: cannot run Postfix sendmail command as non-root	1
+kernell crash if used "agp=off"	1
+rfkill continous console output	1
+Sound card not recognized correctly, FSC Amilo Pi 2515.	1
+volume wheel does not work in 2.6.25-rc6	1
+2.6.25-git regression with snd-hda-intel on Dell XPS M1330, no analog sound	1
+[BUG] oopses in different processes since 2.6.25-rc5-git4	1
+2.6.25-rc6: kernel BUG at fs/sysfs/file.c:89	1
+BUG: soft lockup - CPU#0 stuck	1
+firewire: panic in ohci_cancel_packet	1
+WARNING: at arch/x86/mm/highmem_32.c:43 kmap_atomic_prot+0x87/0x184()	1
+rt2x00 does not associate or give scan results	1
+panic using bridging on linus kernel 2.6.25-rc6	1
+inconsistent lock state in net_rx_action	1
+xbox driver moves axis y backwards	1
+No analog sound after s3 resume	1
+suspend order - again	1
+103 sec. latency: sync_page() with TASK_UNINTERRUPTIBLE (?) (bisected)	1
+USB HID problems after resume	1
+2.6.25-rc7: V4L ioctl oops	1
+2.6.25-rc7: warn_on_slowpath triggered	1
+regression breaks lowmem reserved RAM	1
+The never ending BEEEEP/__smp_call_function_mask with 2.6.25-rc7	1
+On big-endian machines getsockopt returns 0 (via optval) for optlen==1 when returned value should be 255	1
+mac80211 drivers stop transmitting data after ifconfig down; ifconfig up	1
+IPSec tunnel kernel panic	1
+Task blocked for more than 120 seconds	1
+sc92031 does not create a device link in sysfs	1
+2.6.25-rc5.git4 regression PS/2 mouse not detected/working	1
+rc6+ regression - backlight reset to 0 on boot after 7c0ea45be4f114d85ee35caeead8e1660699c46f	1
+kernel 2.6.24-1 doesn't detect my laptop correctly	1
+[>=2.6.23][BUG] Oops on power	1
+b43: PHY transmission error	1
+Quotas problem on ext3 FS mounted with data=journal	1
+HPET interrupt is missing on HAIER H53	1
+x86: tsc prevent time going backwards broke suspend	1
+[PATCH] scsi: fix sense_slab/bio swapping livelock	1
+Oops in drivers/acpi/bus.c::acpi_bus_receive_event()	1
+Filesystem failing without any warning or etc	1
+sata_svw: only 4 ports of 8-port board RAIDCore BCM4852 work. (PCI-ID collision?)	1
+usb-serial.c doesn't work in 2.6.24 kernels.	1
+[rc8] Regression: key repeats and skips in music during compilation	1
+2.6.25-rc8: FTP transfer errors	1
+mm/slab.c boot crash in -git, "kernel BUG at mm/slab.c:2103!"	1
+budget_av: High CPU load due to CI slot polling	1
+FM tuner doesn't change frequency	1
+WPA-PSK doesn't work with ath5k in 2.6.25 kernel	1
+hid-core.c: ctrl urb status -75 received (hid_find_max_report)	1
+Infinite loop "b44: eth0: powering down PHY"	1
+commit acc1f3ede977bf189b332874beeadf48c01544c5 prevents reiserfs to correctly enable quota support	1
+[2.6.25 REGRESSION] Lenovo 3000 N100 does not wake up from ACPI S3 state	1
+Boot Oops+hang in 2.6.25-rc and 2.6.25-final kernels	1
+kernel 2.6.24  4G FC arrays don't work properly with qla2xxx driver	1
+losetup possible circular locking	1
+Kernel fails to properly identify SATA drives	1
+AC Adapter Events on Sony VAIO VGN-FZ31M	1
+isofs crashes with corrupted image	1
+Reboot fails on newer Dell OptiPlex 745	1
+IPVS sync_backup oops	1
+tape/by-id/ nodes not creating due to scsi_id not returning serial number, st nst	1
+IPv6 to Intel EtherExpress 16 fails - multicast problems	1
+INFO: task pdflush:27505 blocked for more than 120 seconds.	1
+x86 PCI dmi_check_system() quirk checks not being run	1
+System Timer can come up bad	1
+[net/wireless/wavelan.c:913]: Array index out of bounds	1
+rndis_host fails to register HTC P3600 device	1
+9p: oops on corner case when no transport modules are loaded	1
+9p: module dependencies not correctly expressed	1
+Huawei CDMA PCMCIA card oops	1
+ath5k driver disconnects sporadic with WPA-PSK and does not reconnect again	1
+WARNING: at include/linux/blkdev.h:431 blk_queue_init_tags+0x110/0x11f()	1
+Oops with strace_test	1
+Horrendous Audio Stutter - current git	1
+[regression] ata2: device not ready (errno=-16), forcing hardreset	1
+VT switching broken - X does not resume (intel chipset)	1
+WARNING: at include/linux/blkdev.h:443	1
+2.6.25-$sha1: RIP call_for_each	1
+2.6.26-rc1-git1 -- trying to get vblank count for disabled pipe 0	1
+2.6.26-rc1-$sha1: RIP __d_lookup+0x8c/0x160	1
+USB devices plugged into dock are not discoverred until reload of ehci-hcd	1
+Please revert 709f744 (x86: bitops asm constraint fixes)	1
+Problem mounting ext2 using ext3 (or any failure to mount a partition) leads to an oops.	1
+general protection fault: 0000 [1] PREEMPT SMP DEBUG_PAGEALLOC	1
+2.6.26-rc1 lost half the RAM on UltraSPARC 5	1
+distcc says: (dcc_pump_sendfile) ERROR: sendfile returned 0? can't cope (bisected)	1
+A couple problems with -rc1-git5	1
+CONFIG_PRINTK_TIME broken on git HEAD ?	1
+lxfb driver regression	1
+2.6.26-rcX VC console scrolling regression	1
+2.6.26-git: ata_piix link is slow to respond regression.	1
+cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed gets BUG on Transmeta Crusoe CPU	1
+Regression in 2.6.25: No sound after suspend-to-ram and resume (snd_hda_intel)	1
+kernel crash on Realtek RTL8101E ethernet controller	1
+2.6.26-rc1 regression: ISA DMA broken (bisected)	1
+ pcspkr: fix dependancies breaks artsd	1
+bonding with arp_interval very low => Ooops.	1
+critical thermal shutdown regression 2.6.26-rc1 - HP Pavilion dv6700	1
+no AC status notification	1
+device name conflicts in sysfs with bonding	1
+snd_pcsp lockdep warning	1
+[vfs/tty] possible circular locking dependency detected	1
+[BISECTED] Lots of "rescheduling IPIs" in powertop	1
+BUG: unable to handle kernel paging request - scsi_bus_uevent	1
+ehci splatter in 2.6.26-rc2	1
+[BUG] mm: bdi: export BDI attributes in sysfs	1
+linux 2.6.24 fails to mount ext3 rootfs on FUJITSU MHK2060AT	1
+System is unstable with EC GPE storm detected	1
+USB Mass storage mount fails: Write protect on	1
+REGRESSION: 2.6.26-rc2-git4: X server failed start on X61s laptop	1
+CPU Frequency scaling gone on CPU1 after resume-from-sleep - Dell Latitude D630, XPS M1330	1
+BISECTED REGRESSION: 2.6.26-rc2: FUSE changes break mount of ntfs-3g	1
+REGRESSION: video driver stuck after screen blank	1
+dhclient fails to run; capabilities error	1
+poweroff doesn't - 2.6.26-rc1 regression	1
+pata_isapnp driver causes the ata layer to go splat	1
+BUG: soft lockup - CPU#0 stuck for 130s!	1
+iwl3945 regression - NULL deref in ieee80211_associate	1
+recent 2.6.26 kernel hangs at suspend	1
+PCIEHP breakage in 2.6.26-rc1,2.6.26-rc2,2.6.26-rc3	1
+some serial configurations are now broken	1
+iwl3945/mac80211: association times out since 2.6.26-rc1	1
+[PATCH]kernel crash when i put my pcmcia bluetooth card to notebook	1
+sched_clock() returns zero because cyc2ns is not initialized	1
+kernel will boot with "nohz=off" only	1
+(patch queued)ftdi_tiocmget Could not get modem status of device - err: -19	1
+pcie hotplug bootup crash fix	1
+PS/2 keyboard becomes dead/non-responsive on boot with kernel > 2.6.24.3-50.fc8	1
+Cardbus slots in Thinkpad Dock/Dock II fail IRQ allocation - T30	1
+ACPI C-State missing since 2.6.19.3	1
+2.6.22 boot hang - 2.6.19 worked - Gericom notebook	1
+2.6.26-rc4: RIP __call_for_each_cic+0x20/0x50	1
+2.6.26-rc4: RIP find_pid_ns+0x6b/0xa0	1
+vt/fbcon: fix background color on line feed	1
+[PATCH] fix apple alu keyboard	1
+Fatal DMA error with b43 driver since 2.6.26	1
+stuck localhost TCP connections, v2.6.26-rc3+	1
+m68k libc5 regression	1
+appletouch after wakeup	1
+2.6.26rc4 GFS2 oops.	1
+[2.6.25-git18 => 2.6.26-rc1-git1] Xorg crash with xf86MapVidMem error	1
+two different oopses with 2.6.26-rc4	1
+ELO serial touchscreen driver unload issue	1
+rpciod stuck in 'D' state	1
+Display artifacts on XOrg logout with PAT kernel and VESA framebuffer	1
+vmalloc problem with DEBUG_PAGEALLOC config option	1
+CDROM is nor detected with libata and 3Ware.	1
+total system freeze at boot with 2.6.26-rc	1
+forcedeth: lockdep warning on ethtool -s	1
+[regression][bisected] ~90,000 wakeups as of 2.6.26-rc3	1
+Oops trying to mount an ntfs partition on thinkpad	1
+Oops on loading ipaq module since 2.6.26, prevents use of device	1
+Oops in nf_nat_setup_info	1
+V7 FS: corrupted iso9660 fs recognized as V7 FS, causes BUG()	1
+Different kernel crashes on corrupted filesystems	1
+Kernel report fake device busy intermittently	1
+Disabling irq balance in kernel prevents laptop power off by sysrq	1
+ssh connections hang with 2.6.26-rc5	1
+IPF Montvale machine panic when running a network-relevent testing	1
+2.6.26-rc5: SLUB debug, lockdep warning...	1
+[regression] display dimming is slow and laggy - Acer Travelmate 661lci	1
+firewire: kernel locks up after bus generation roll-over	1
+Memory reader not working with kernel >2.6.24 but works with kernel 2.6.23 and 2.6.22!	1
+Kernels >=v2.6.24 (maybe 2.6.23) can't load ip_conntrack modules	1
+Dell laptops: reboot instead of resume	1
+v2.6.26-rc7: BUG: unable to handle kernel NULL pointer dereference	1
+pata_pcmcia with Sandisk Extreme III 8GB	1
+2.6.26-rc: nfsd hangs for a few sec	1
+ymfpci: can't play sounds with bitrate 44100	1
+system hang on closing T60 panel lid when in dual screen mode 2.6.26 regression	1
+[REGRESSION] kernel freezes reinitializing SMP CPU	1
+p4-clockmod reports false frequency	1
+pcmcia: CIS filename is too long [GLOBETROTTER.cis]	1
+Soft lockup on (intentionally) corrupted filesystem	1
+kernel oopses when wiggling the mouse to make it known to hidd	1
+sis191 unknown PHY (004d:d021)	1
+2.6.25 kernels spew SKB BUG: Invalid truesize when using ipsec/openswan	1
+Module ehci_hcd behaves nasty on device use and/or device removal.	1
+2.6.26-rc5-git2: snd-emu10k1 does not work	1
+2.6.26-rc6: pcmcia stopped working	1
+[BISECT] Boot failure on ia64.	1
+after laptop re-dock: usb-storage device no longer detected	1
+i945: mplayer -vo gl messes up screen	1
+s2ram/resume hangs after a few hours/days	1
+2.6.25 to 2.6.26-rc8 regression  (related to ahci and acpi _GTF)	1
+ACPI Error (nseval-0159): Insufficient arguments - method [_OSC] needs 5, found 4 [20080609]	1
+2.6.28-rc8-git3 forcedeth WARNING (kills the interface)	1
+pata_pdc2027x: 2.6.26-rc: host can not shutdown: ata problem	1
+All 2.6.26-rcX hang immediately after loading ohci_hcd	1
+Bug in MPT Fusion 2.6.26-rc7 unbootable	1
+Error message: ACPI: Resource is not an IRQ entry	1
+vbetest fails on 2.6.26-rc9	1
+DEADLOOP in kernel network module	1
+r8169 works bad w/ 8168B NIC	1
+resume failure on thinkpad x61s	1
+scsi-layer crash after usb storage device unplug	1
+INFO: recursive lock - when I press SysRQ+powerOff	1
+Regression: Freeze during boot on MSI M673 laptop	1
+Can't use framebuffer or vesa Xorg with two memory modules	1
+an index reference is returned instead of an integer when evaluating _BQC - FSC Amilo Pi 2515	1
+reboot=bios is mandatory on Dell T5400 server.	1
+iRiver T10 is incorrectly handled because of commit bdb2b8ca	1
+ac_adapter: boot state off-line, e2fsck never checks partitions	1
+rtc-class: does not clear interrupts on device close	1
+warning in cpufreq.c on E450	1
+no battery or DC status - Dell i1501	1
+dhcp doesn't work with iwl4965	1
+AHCI driver work incorrectly, HDD hang when  heavy load.	1
+NFS hangs with 2.6.25/2.6.26 despite server being reachable	1
+sound in saa7130 doesn't work in kernel 2.6.26	1
+powertop segfault because of kernel BUG	1
+rtl8180: disconnects randomly after some minutes of use. (and other things)	1
+Secondary hard drive fails during both hibernation and resume.	1
+commit a352def21a642133758b868c71bee12ab34ad5c5 broke pptp	1
+Suspend to RAM regression (bisected)	1
+sky2 WOL broken	1
+[USB boot crash, -git] ecm_do_notify(), list_add corruption. prev->next should be next (ffff88003b8f82f8)	1
+Oops in microcode sysfs registration	1
+commit a29ccf6f823a84d89e1c7aaaf221cf7282022024 break console on slackware 12.1	1
+kernel BUG at arch/x86/kernel/io_apic_64.c:357!	1
+2.6.27-rc1 oops on boot -- cs423x?	1
+Commit 76a2a6ee8a0660a29127f05989ac59ae1ce865fa breaks PXA270 (at least)?	1
+2.6.27-rc1 + selinux new options = no httpd	1
+VolanoMark regression with 2.6.27-rc1	1
+Bug in 2b2a1ff64afbadac842bbc58c5166962cf4f7664 ?	1
+2.6.27-rc1 process time accounting	1
+2.6.27-rc1: WARNING: at /home/rafael/src/linux-next/include/linux/blkdev.h:447	1
+PROBLEM: abituguru3 module does not recognize my ip35 pro since 2.6.26	1
+Kernel WARNING: at net/core/dev.c:1330 __netif_schedule+0x2c/0x98()	1
+KVM modules break emergency reboot	1
+2.6.27-rc1 oops when plugging USB disk	1
+Only three cores found on quad-core machine.	1
+BUG on booting 2.6.27-rc1	1
+p54usb broken by commit b19fa1f	1
+kernel is deadlocked due to tty->termios_mutex locked twice in one procedure	1
+acer-wmi broken in latest git kernel on TravelMate 6492 (Insufficient arguments - method [WQAA])	1
+corrupt PMD after resume	1
+Regression with handling the DEL key on Thinkpad X31	1
+savagefb: garbled display using fbi	1
+TC HTB hanging problem	1
+ext3: kernel BUG on unmounting an intentionally corrupted fs	1
+BUG: scheduling while atomic: ip/23212/0x00000102	1
+umount hangs on an intentionally corrupted filesystem ("blocked for more than 120 seconds")	1
+KVM: fix userspace ABI breakage	1
+S3: no resume, not even a beep - LG R700	1
+ahci.skip_host_reset is broken starting from 2.6.26	1
+fbcon cursor disappered after switch to 512 consolefont	1
+Regression: USB memory stick triggers several USB resets before settling with bogus capacity	1
+Invalid op opcode in kernel/workqueue	1
+sched: revert cpu_clock to pre-27ec4407790d075c325e1f4da0a19c56953cce23 state	1
+2.6.27-rc1: softcursor behaviour changed	1
+Oops when accessing /proc/lockdep_chains	1
+[BUG] hugetlb: sleeping function called from invalid context	1
+2.6.27-rc2: Very odd top: '5124095h kthreadd' display	1
+Fix broken VMI in 2.6.27-rc..	1
+2.6.27-rc1: critical thermal shutdown on thinkpad x60	1
+possible recursive locking in udp4_lib_rcv	1
+Regression in 2.6.27-rc1 for set_cpus_allowed_ptr	1
+2.6.27-rc2-git4: suspend and power off fails on Asus M3A32-MVP	1
+OOPS in rt6_fill_node	1
+THRM temperature reported as 3428C	1
+MSI VR 330 Laptop hard locks with 2.6.24 and upper kernels	1
+dl2k fails to work since 2.6.25	1
+ext4 mount problem (proc_dir_entry 'stats' already registered)	1
+/proc/diskstats does not contain all disk devices	1
+Incorrect value in /sys/devices/platform/w83627hf.656/cpu0_vid	1
+int3: 0000 in tsc_read_refs when using powernow_k7	1
+Fan speed setting reset after suspend to disk/ram on Thinkpad X31	1
+2.6.27-rc2:stall while mounting root fs	1
+Warning in during hotplug on 2.6.27-rc2-git5	1
+ia64 allmodconfig on current mainline	1
+Only one of my cpus seems to powered down by cpufreq	1
+2.6.27-rc1 - ext4 e2fsck false prompting for fixing i_size of Inode	1
+SATA Cold Boot Problems with 2.6.27-rc[23] on nVidia 680i	1
+CPUIDLE  does not see C2, C3 on SMP Opteron system	1
+kernel BUG at arch/x86/mm/pat.c:233!	1
+connection loss when an additional device is plugged into a 6-port hub	1
+saa7146 (budget) dvb device missing frontend driver	1
+AMD Elan regression with 2.6.27-rc3	1
+Can not boot up with zd1211rw USB-Wlan Stick	1
+net: forcedeth call restore mac addr in nv_shutdown path	1
+my servers with nvidia mcp55 nic don't work with msi in second kernel by kexec	1
+No handler for Region [EC__]  - MSI EX600 notebook	1
+e1000e: 2.6.27-rc1 corrupts EEPROM/NVM	1
+tracehook breaks dhcpcd child processing	1
+b2c2-flexcop adapter fails to register frontends due i2c readreg error	1
+orinoco pcmcia card does not initialise	1
+2.6.27-rc3 warns about MTRR range; only 3 of 16gb of memory is usable	1
+Kernel NULL pointer dereference in do_notify_parent()	1
+(patch queued)possible buffer underflow in ib700wdt.c	1
+pktcdvd: BUG, NULL pointer dereference in pkt_ioctl, bisected	1
+skbuff bug?	1
+patch "x86: MOVE PCI IO ECS code to x86/pci" breaks CPU hotplug	1
+SLUB list_lock vs obj_hash.lock...	1
+get_rtc_time() triggers NMI watchdog in hpet_rtc_interrupt()	1
+Kernel Crash during Boot with External Monitor, probably intelfb	1
+usb-storage device based on Rockchip 2706 is being disconnected and thus not mountable.	1
+reproducible panic when reading cdrom (atapi dma)	1
+AMD systems with c1e enabled freeze without "nolapic_timer" option	1
+Selecting CONFIG_RTC_CLASS excludes CONFIG_SND_RTCTIMER	1
+r8169 exits with error -22	1
+oops due to smp_call_function_single changes	1
+ixgbe: fix vlan filtering	1
+ipv4: sysctl fixes causes "cannot open /proc/sys/net/ipv4/route/flush"	1
+lots of 'in_atomic():1, irqs_disabled():0' with software-raid1	1
+btusb hibernation/suspend breakage in current -git	1
+md (regression): reboot/shutdown hangs	1
+kernel crash after wifi connection established	1
+v2.6.27-rc5 regression: mtd/block device issue with cmd_filter	1
+TUN with 1024 neighbours: ip6_dst_lookup_tail NULL crash	1
+GPE storm detected, kernel freezes	1
+Intel 5100AGN (iwlwifi) doesn't load firmware properlly on x86_64	1
+Brightness function keys do not work when acpi is enabled on Gateway m-1624	1
+Suspend/Resume prevent kernel reboot	1
+MD resync blocked for more than 120 seconds (with call trace)	1
+2.6.27-rc xen pvops regression?	1
+Regression in 2.6.27 caused by commit bfc0f59	1
+proc_dir_entry 'hdb' already registered on repeatedly mounting/umounting intentionally corrupted fs	1
+/proc/net bug related to selinux	1
+fujitsu-laptop: fix regression for P8010 in 2.6.27-rc	1
+oops during unmount - ext3? (2.6.27-rc5)	1
+usb: sometimes dead keyboard after boot	1
+NIC sis 191 don't work on kernel x86_64	1
+HPT374 detection crash with 74811f355f4f69a187fa74892dcf2a684b84ce99	1
+eeepc_laptop hwmon missing name	1
+MCE on Athlon64 X2, nForce4 motherboard	1
+2.6.27-rc5 acpi: EC Storm error message on bootup	1
+pnp: Huge number of "io resource overlap" messages	1
+Disabling IRQ #23	1
+rmmod ide-cd_mod: tried to init an initialized  object, something is seriously wrong.	1
+e100: PCI wake-up handling rework causes "Error clearing wake event"	1
+2.6.27-rc6: nohz + s2ram = need to press keys to get progress	1
+[REGRESSION] 2.6.26.4 killed Suspend to RAM at my laptop	1
+nsc-ircc works only when restarting from Windows	1
+spontaneous reboot on resume with 2.6.27	1
+ath9k lose connection	1
+udp: unbalanced unlock bug in udp_queue_rcv_skb with ipsec	1
+MacBook Pro stuck on boot	1
+/dev/rtc entries are not created with 2.6.26+ on HP DL360	1
+Frequent USB resets when writing to flash of Mio GPS	1
+kernel boot pauses unless "idle=poll" - HP Pavilion dv6950la - AMD Turion TL-62	1
+Nokia 5310 Xpress usb-storage not mounting	1
+Asus EeePC shuts down while booting reporting bogus 144C temperature.	1
+iwlagn driver in latest linux-2.6 git is not working for intel 4965agn card	1
+zte mf622 (device ignored)	1
+cdrom drive cannot open the tray, but reported this badly in /proc/sys/dev/cdrom/info	1
+Commit 2344abbcbdb82140050e8be29d3d55e4f6fe860b breaks resume on nx6325	1
+quad G5 fails to shut down	1
+Kernel panic after patch f3994eceebf64cf356a82ffb2718ef538eb8d4f4	1
+Sometime my laptop is dead on resume from ram	1
+dm-snapshot or kcopyd Oops	1
+resume fails with CONFIG_NO_HZ	1
+Usb stick mounts only once, upon writing non readable next connect.	1
+Multiple virtual ACPI backlight devices created for a single LCD	1
+rtl8150 module does not unload when interface is up	1
+Network don't work with SiS 900 PCI Fast Ethernet. Mainly, I tried with DHCP interface. With exacly the same configurations network works on olders kernels and don't work on the newest	1
+Devices enabled in /proc/acpi/wakeup do not wake up any more	1
+CDROM on Laptop  Fudjitsu-siemens Amilo Xa-2528 isn't reconized	1
+ACPI Error: No handler for Region, Method execution failed, hang on reboot	1
+acpi errors and random freeze on sony vaio sr	1
+power button stops working after suspend (irq 9: nobody cared)	1
+when CPU hotplugging is disabled, nr_cpu_ids does not get set properly during boot	1
+2.6.27-rc2 to rc8, apgart fails, iommu=soft works, regression	1
+ASUS P5QL Pro: Early kernel exception in dmi_table	1
+USB disconnects every 30 seconds	1
+2.6.27-rc8 doubled times	1
+2.6.27-rc-7: BUG: scheduling while atomic, c1e_idle+0x98/0xe0	1
+sky2 wol regression	1
+regression: kernel crashes after agp gart init	1
+Blacklist HP 6715s - buggy BIOS	1
+Pressing suspend button suspends, but does not wakes up on Itautec Note N8320	1
+Can't classificate problem. maybe hrtimer data structures got wrecked	1
+after upgrade to 2.6.27 i cannot navigate	1
+ath9k causes oops	1
+2.6.26 regression - no poweroff - ABIT I-45CV mainboard	1
+sata_sil fails to initialize the drive	1
+wireless card intel pro/wireless 3945BG freezes ramdonly my laptop.	1
+atl1e: INFO: inconsistent lock state	1
+iwl3945 module crashes with 2.6.27 kernels	1
+Ath5k driver has too many interrupts per second at idle	1
+Incorrect file remove from ext4	1
+Nokia 6300 storage-mode	1
+constant PANIC and immediate "early exception" on boot with new 2.6.27	1
+p54 misbehaves when firmware can't be found	1
+Oops when reading /proc/megaraid/hba0/diskdrives-ch*	1
+ks959-sir dongle no longer works under 2.6.27 (REGRESSION)	1
+[Radeon Xpress 1100 IGP] DRI fail on recent kernel updates	1
+xorg can not start up with stolen memory	1
+prism 2.5 broke in 2.6.27	1
+iscsi: LRO plus iSCSI causes panic	1
+mounting XFS produces a segfault	1
+iwl3945 fails with microcode error	1
+ACPI errors just after resuming from s2disk	1
+Wirless Card don't work (iwl3945)	1
+2.6.27: 0 MHz CPU and wrong system time on AMD Geode system	1
+dv1394: possible deadlock if accessed by multithreaded app	1
+raw1394: possible deadlock if accessed by multithreaded app	1
+appletouch broken	1
+extreme slowness of IO stuff using 2.6.28-rc1	1
+suspend broken on powerbook5,6	1
+Kernel 2.6.26.5 -> 2.6.27.2 [USB REGRESSION] (USB -> D_STATE)	1
+disk statistics issue in 2.6.27	1
+NULL pointer derefence since 2.6.27 in (e)poll	1
+2.6.27-git8: max1111_read_channel and corgi_ssp_ads7846_putget missing	1
+NULL pointer dereference, IP: [<c0190884>] page_cgroup_zoneinfo+0xf/0x1b	1
+general protection fault:  from release_blocks_on_commit	1
+usb hdd problems with 2.6.27.2	1
+ext3: fix ext3_dx_readdir hash collision handling	1
+Suspend regression on Lenovo x60	1
+commit a802dd0e breaks console keyboard input	1
+2.6.28-rc1: NCQ devices connected to PMP are  still dead	1
+default IRQ affinity change in v2.6.27 (breaking several SMP PPC based systems)	1
+v2.6.28-rc1: Regression in ext3/jbd	1
+Random problems with 2.6.28-rc1-git1	1
+v2.6.28-rc1: readlink /proc/*/exe returns uninitialized data to userspace	1
+pl2303: kernel BUG when bringing down ppp connection	1
+seq_file does not handle pread()	1
+Timeout regression introduced by 242f9dcb8ba6f68fcd217a119a7648a4f69290e9	1
+WOL for E100 Doesn't Work Anymore	1
+unable to mount ext3 root filesystem due to htree_dirblock_to_tree	1
+radeonfb lockup in .28-rc (bisected)	1
+RCU hang on cpu re-hotplug with 2.6.27rc8	1
+ACPI: EC: acpi_ec_wait timeout - AE_TIME - ASUS X50GL laptop	1
+Linux 2.6.28-rc2 i/o error on /dev/ttyUSB0	1
+No battery status information - HP EliteBook 2730p	1
+rtl8187 has to be unloaded before hibernation	1
+resume from disk broken on hp/compaq nx7000 (DRM problem)	1
+Battery information and status disappearing and wrong thermal status - MSI ex600 laptop	1
+2.6.28-rc2 / hso driver oops	1
+2.6.28-rc2 regression: keyboard dead after ACPI reboot on Toshiba Portege 4000	1
+[2.6.28-rc2] EeePC ACPI errors & exceptions	1
+mke2fs hang on AIC79 device.	1
+sometime boot failed on T61 laptop	1
+ath5k triggers WARN_ON in __ieee80211_rx	1
+regression: vmalloc easily fail	1
+lots of extra timer interrupts costing 2W	1
+2.6.28-rc2 seems to fail at powering down the monitor when it should	1
+NVRAM being corrupted on ppc64 preventing boot	1
+linux-2.6.28-rc2 regression : oprofile doesnt work anymore	1
+new PCMCIA device instance after resume - orinoco can't download firmware	1
+2.6.28-rc2 hates my e1000e	1
+hotkeys stop working after prolonged usage - Asus Eee PC	1
+cdrom: missing compat ioctls	1
+[PATCH]sis190 doesn't detect ethernet cable removal (Realtek PHY)	1
+ath5k gets lost with eeepc-laptop removal	1
+BUG: soft lockup - CPU#0 stuck for 61s! [section handler:9341]	1
+2.6.28-rc VC switching with Intel graphics broken	1
+Early boot failure for 2.6.28-rc[123]: NULL pointer deref stemming from scheduler_tick	1
+oops on reading /proc/capi/controller after removing b1isa	1
+JBD: grub-probe wants too many credits (266 > 256)	1
+regression introduced by - timers: fix itimer/many thread hang	1
+IRQ smp_affinities not respected	1
+gettimeofday return a old time in mmbench	1
+[net/mac80211/debugfs_sta.c:202]: Buffer overrun	1
+2.6.26.6 breaks resume on my ThinkPad x60s	1
+Fan level 7 after resume wit 2.6.28-rc3	1
+2.6.28-rc3 truncates nfsd results	1
+Eliminate recursive mutex in compat fb ioctl path	1
+Suspend failure on NForce4-based boards due to chanes in stop_machine	1
+SMP boot crash if C-states enabled - LG E500 V.APSCG	1
+Computer doesn't power down after commit ACPI: EC: do transaction from interrupt context	1
+Tracing framework regression in 2.6.28-rc3	1
+ACPI: EC: missing confirmations, switch off interrupt mode.	1
+ACPI Error Method parse/execution failed with kernel 2.6.27.5	1
+Incorrect Urgent Pointer in outgoing packets	1
+oops when using ext4 on soft raid on IA64 with 65536 block size	1
+Major increase in the number of wakeups from C3	1
+Fn + brightness up/down keys doesn't work if ACPI enabled - Samsung NC10	1
+DRM enabled kernel hangs hard on resume (Intel graphics)	1
+thinkpad x200 X.server not work with gm4500 graphics	1
+Suspend regression in stable kernel 2.6.27.4 on Mac mini Core Duo	1
+USB hid blocks USB port in 2.6.28rc3	1
+circular locking dependency detected [ by iwlgan, on thinkpad x200]	1
+Regression in bonding between 2.6.26.8 and 2.6.27.6	1
+Oops in acpi_system_wakeup_device_seq_show	1
+snd_hda_intel: power_save: sound cracks on powerdown	1
+[regression] Measured 688 cycles TSC warp; marking TSC unstable	1
+xen: pin correct PGD on suspend	1
+IRQ and MSI allocations broken without sparse irq	1
+vcs sysfs file creation race	1
+kvm: vmap allocation failed	1
+Nokia 5310 storage-mode	1
+resume (S2R) broken by Intel microcode module, on A110L	1
+mac80211/ath5k : missing 2 bytes in monitor mode for ACK frames	1
+Regression: Vendor backlight control in sony-laptop stopped working	1
+ath9k causes computer to hang after long data transmissions	1
+Brightness on thinkpad T61 not settable after DPMS screen blanker	1
+[Block layer or SCSI] requests aborted too early during check_partition()	1
+Hibernation regression on Toshiba Portege R500	1
+sync_core crashes on 486 class CPUs	1
+After suspend to RAM I cannot wake up my computer again	1
+Huge wakeups number from i1915	1
+Mmiotrace regression in 2.6.28-rc6	1
+Regression in 2.6.28-rc and 2.6.27-stable - hibernate related	1
+commit b1ee26b freezes system on switching from X to text console	1
+2.6.28-rc6-git1 -- No sound produced from Intel HDA ALSA driver	1
+[i915 drm] irq 16: nobody cared with latest git kernels	1
+Commit 7cd5b08be3 breaks startup on Toshiba Portege R500	1
+[PATCH]mptsas driver cannot discover some hotplugged SATA/SAS disks	1
+2.6.27.6 vmware guest panics on boot with CONFIG_VMI=Y	1
+[memcg BUG ?] failed to boot on IA64 with CONFIG_DISCONTIGMEM=y	1
+Unloading rtl8187 generates a GPF if SLUB poison debugging is enabled	1
+2.6.28-rc7-git8 framebuffer corrupted at boot	1
+dd make kernel panic	1
+AlpsPS/2 ALPS Glidepoint back/forward buttons incorrectly handled	1
+Freecom 1TB Firewire drive claims max_rom = 2 but can only handle max_rom = 0	1
+Error when drm is loaded	1
+journal activity on inactive partition causes inactive harddrive spinup	1
+From version 2.6.27.8 smbd lock ups kernel after 2-10 hours uptime. Keyboard, sshd, smbd, acpi button not work. Syslog and hdd not activity. but Nmap port scan and pinged normally on all ifaces.	1
+D-Link 530 TX Rev. C2 not working	1
+2.6.27 vmware x86_64 guests panic on boot on VMware ESX	1
+Swap breaks after 2x hibernation failure due to lack of swap	1
+Disk errors sometimes ignored from the USB-SCSI layer	1
+S3 resume regression since 2.6.27.2	1
+Lenovo ThinkPad SL series: LCD brightness works in procfs, buggy in sysfs	1
+new oops on resume due to ACPI_PREEMPTION_POINT()	1
+Regression due to commit 2b80848e3818fb1c (p54usb: support LM87 firmwares)	1
+kernel panics with net_rx_action on kernels above 2.6.26	1
+Orinoco (Mac airport) oops when loading agere_sta_fw.bin firware	1
+i915: switching from kwin in opengl mode to a VT then back to x11, x11 freezes	1
+FPU emulation broken in 2.6.28-rc8 ?	1
+WARNING: ioremap on starting X with intel driver and multi-display	1
+Almost all my devices are not recongnized by  kernel-2.6.27, 2.6-28	1
+FN-Fx for volume not working on Eee 901	1
+[Patch] tc1100-wmi: sysfs entries always 0	1
+Fingerprint reader doesn't respod after the first use	1
+Backward brigthess level	1
+e1000e 82567LM Tx Unit Hang	1
+Runaways cifsd on after umount	1
+NOHZ appears to cause ondemand to effectively ignore 'ignore_nice_load'	1
+Can't associate with AP using wep encryption	1
+[TRIVIAL] MTRR cleanup WARN message (arch/x86/kernel/cpu/mtrr/generic.c:404)	1
+warn_on_slowpath when playing audio CD	1
+Intermittent TCP issues with => 2.6.27	1
+s3cmci hangs up in 2.6.28	1
+with 2.6.28 undock/dock work bad or freeze computer - Dell D430	1
+Loading iTCO_wdt.ko on 2.6.28 hangs (old) Dell Latitude	1
+ath9k drops connection after 2 to 3 minutes connected	1
+ext4_block_to_path block too big cause cpu to burn	1
+debugging in dosemu causes lots of 'scheduling while atomic'	1
+hwinfo problem since 2.6.28	1
+USB wakeup problem on multiple machines	1
+git-latest: kernel oops in IOMMU setup	1
+2.6.29-rc: kernel BUG at fs/xfs/support/debug.c:108	1
+oops in __bounce_end_io_read under kvm	1
+2.6.28 thinks that my PS/2 mouse is a touchpad	1
+Kernel 2.6.28 regression: Hang after hibernate	1
+resource map sanity check conflict: 0x7fffff00 0x800000ff 0x7ffff000 0x7fffffff ACPI Non-volatile Storage	1
+Regression in v2.6.28 introduced by: 'USB: skip Set-Interface(0) if already in altsetting 0'	1
+WARNING: at drivers/net/wireless/iwlwifi/iwl-sta.c:689	1
+possible circular locking dependency on i915 dma	1
+GPF on 2.6.28 and 2.6.28-rc9-git3, e1000e and e1000 issues	1
+2.6.28-git can't resume from str	1
+TMDC Joystick no longer works in kernel 2.6.28	1
+different oops & panic on accessing an intentionally corrupted ext4 fs image	1
+keyboard not responding on dell inspiron 5160	1
+Oops while resizing an ext4 LVM2 volume	1
+WARNING: at drivers/ata/libata-sff.c	1
+Xorg can't use dri on radeon X1950 AGP	1
+X hangs following switch from radeonfb console - Bisected	1
+When a PF_PACKET socket using MMAP become full once, select() on the fd always returns 0.	1
+Battery status and lid switch not working on ZT Systems P7003i-74 laptop	1
+XFS : Corruption of in-memory data	1
+squashfs: BUG in squashfs_read_data() on intentionally corrupted filesystems	1
+i915 lockdep warning	1
+Regression: ThinkPad X61 doesn't wake up from suspend-to-ram	1
+ACPI related kernel panic when booting 2.6.29-rc2	1
+Sony backlight regression from 2.6.28 to 29-rc	1
+thinkpad problems during resume	1
+swsusp cannot find resume device (sometimes)	1
+new barrier warnings in 2.6.29-rc1	1
+OOPS and panic on 2.6.29-rc1 on xen-x86	1
+Problem with using bluetooth adaper connected to usb port	1
+r8169: NETDEV WATCHDOG: eth0 (r8169): transmit timed out	1
+pipe_read oops on sh	1
+2.6.29-rc1 Firefox crashing on page load	1
+powerpc/pci: Reserve legacy regions on PCI broke my G3	1
+lockdep report. fb_mmap vs sys_mmap2	1
+possible circular locking #0:  (sk_lock-AF_PACKET){--..}, at: [<c1279838>] sock_setsockopt+0x12b/0x4a4	1
+BUG: using smp_processor_id() in preemptible [00000000] code:  dellWirelessCtl/...	1
+Cannot boot 2.6.28 under Dell OptiPlex 960	1
+oops when plugging in AC	1
+xfs_fsr fails on 2.6.29-rc kernels	1
+[PATCH] Fix a panic with 1M of shared memory, no GTT entries	1
+Sata controller unrecognised on a Packard Bell Imedia 8783	1
+vmalloc_fault handling in x86_64	1
+crash in hp_wmi_bios_setup (hp-wmi driver)	1
+The rtl-8187b card stops responding and connection is lost on hight trafic (torrent protocol).	1
+BUG: filefrag errors on non-journal ext4 filesystem	1
+using >= linux-2.6.26-gentoo-r4 machine hangs when start hibernating	1
+NULL pointer dereference in blk_queue_io_stat	1
+fw_card_add adds card to the list even on enable failure	1
+iwlagn error messages when the card is sending a lot of data	1
+tg3 dead after resume	1
+virt-manager broken on 2.6.29-rc2	1
+CRED changes causing setuid failures	1
+Suspend regression, hang after matroxfb	1
+2.6.29-rc powerpc G5 Xorg legacy_mem regression	1
+v2.6.29-rc2 libata sff 32bit PIO regression	1
+sync-Regression in 2.6.28.2?	1
+kernel BUG at kernel/cgroup.c:398!	1
+hard lockup when interrupting cdda2wav	1
+[Suspend regression][DRM, RADEON]	1
+WOL with forcedeth broken since f55c21fd9a92a444e55ad1ca4e4732d56661bf2e	1
+boot hangs while bringing up gianfar ethernet	1
+Resume broken on iBook	1
+plymouth triggers circular locking warning on boot	1
+don't assume we are fully charged when not charging or discharging	1
+DMI low-memory-protect quirk causes resume hang on Samsung NC10	1
+Regression on VIA C3 motherboard, commit: 66f2173e2	1
+Early crash with 2.6.29-rc3	1
+iwl3945 broken after hibernation: Wait for START_ALIVE timeout after 2000ms.	1
+ThrustMaster Firestorm Dual Power 3 Gamepads stopped working	1
+Linux 2.6.28.3 freezing on a 32-bits x86 Thinkpad T43p	1
+commit 64ff3b938ec6782e6585a83d5459b98b0c3f6eb8 breaks rlogin	1
+linux 2.6.29-rc3 kernel failure with mptsas	1
+viafb triggers BUG at mm/vmalloc.c:294	1
+2.6.28.4 regression: mmap fails if mlockall used	1
+WARNING at fs/namespace.c:636 mntput_no_expire()	1
+Kernel locks up when loading X with Radeon DRI	1
+Toshiba L355 will suspend/resume once, but after a second suspend, won;t resume	1
+bnx2_poll_work kernel panic	1
+[git bisect] 2.6.29 regression: snd_hda_intel suspend bug	1
+Hang on resume from hibernation, apparently as result of 213d9417fec	1
+[pata_ali] ATAPI UltraDMA on secondary channel broken	1
+Sound don't work with my toshiba X200 and kernel 2.6.29	1
+IBM TrackPoint not working on 2.6.28.6	1
+Oops when renaming interfaces added to a bridge	1
+/proc/net/xt_recent/: +IP / -IP commands broken for IPv4	1
+[BISECT]kernels later than 2.6.26.8 die at cardbus init on laptop	1
+ACPI exception with 2.6.29-rc6	1
+2.6.29-rc5 hanging at boot when CONFIG_LOCK_STAT=y	1
+Disk errors loop forever in 2.6.29	1
+Can not ioremap virtual address for G33 hw status page	1
+i915 VT switch with AIGLX causes X lock up	1
+hda_codec, Unknown model for ALC262, Sony VAIO laptop	1
+FREEZE/THAW compat_ioctl regression	1
+BCM4320a poor performance with rndis_wlan (was: rndis_wlan causes segmentation fault)	1
+x86 PAT invalid vm_insert_pfn assumptions	1
+some tc commands fail	1
+QinQ vlan trunking regression	1
+filesystem corrupts on heavy I/O	1
+[PATCH]uvcvideo does not handle out-of-bounds control values correctly	1
+Hot/Fn Keys do not work EEEPC 1000HE (eeepc_laptop)	1
+mtd: physmap: NULL pointer dereference in error path	1

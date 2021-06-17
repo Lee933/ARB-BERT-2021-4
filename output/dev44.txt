@@ -1,0 +1,858 @@
+XFS on dm_crypt Oops	0
+Oops in kcryptd	0
+Promise SATA300 TX4 with WD2500KS: "no sense translation" errors	0
+SCSI AEC6712D Card (Artop Electronic Corp - old name=ACARD) memory crash in xsane	0
+Memory leak in hid_parse_report	0
+Memory leak and broken fan control	0
+AOE filesystem corruption on Alpha	0
+(net xircom_cb, xircom_tulip_cb) When card inserted, dmesg says that ETH1 will be used, but ifconfig configures adapter on ETH2.	0
+open/close loop causes disabled irq	0
+Write load on DM-Crypt LUKS partition with reiserfs jams system	0
+ArbitrarayKernel memory leak	0
+ldusb returns bad data on subsequent reads if no data is available.	0
+list_add corruption. prev->next should be next (f7d28794), but was f0df8ed4  (prev=f0df8ed4) Kernel Bug at lib/list_debug.c:33	0
+Duplicate file names "rtc" detected	0
+pdflush stuck in D state with v2.6.24-rc1-192-gef49c32	0
+ext4: delalloc space accounting problem drops data	0
+Linux Kernel isdn_net_setcfg buffer overflow	0
+r8169, swiotlb, 4GB RAM, breakage	0
+kobject ->k_name memory leak	0
+net_device refcnt bug when NFQUEUEing bridged packets	0
+i386: PAE kernel memory leak on SMP systems	0
+ftruncate in fat can eat all memory and trigger oom killer	0
+2.6.25 git regression, oops on boot	0
+2.6.25-rc5-git5 KVM memory not freed	0
+Oops while reading /proc/ioports or /proc/iomem	0
+[drivers/media/video/vivi.c:337]: Memory leak: tmpbuf	0
+(patch queued)[drivers/usb/gadget/pxa27x_udc.c:655]: Memory leak: req	0
+GPF in snd_hda_intel	0
+ath9k leaks memory as function of traffic amount and forces reboot	0
+serial8250: too much work for  ... ,the 8250 dead but will recover after echo t >/proc/sysrq-triger	0
+OOM killer unexpectedly called	0
+Black screen after loading nouveau module	0
+Resume from RAM on PowerBook broken by commit 1fb25cb8b83e85f5bf1a4adb3c9a254c4ce92405	1
+2.6.29-rc breaks STD using Intel 945	1
+lguest: unhandled trap 13 in current -rc	1
+Transcend microSD card is not recognized by kernel 2.6.28 and Toshiba Tecra M5	1
+Crash on suspend to ram - Netbook datacask Jupiter 1014a	1
+Regression issue with kernel 2.6.29-rc6-git1: high power consumption during sleep	1
+On resume irq 16 get's disabled.	1
+rb_erase Kernel Panic	1
+No headphone control in Sigmatel HDA	1
+2.6.29-rc7 broke r8169 MAC on Thecus n2100 ARM board	1
+BUG when disabled ipv6 module is unloaded	1
+2.6.29-rc "TKIP: replay detected" regression	1
+usb bluetooth crashes system	1
+pwc mmap always fails with EAGAIN	1
+[regression after 2.6.18] resume failure - MSI PR200WX-058EU	1
+skge wake on lan	1
+rt2500usb: Driver error on resume from STR: iBook G3 600MHz	1
+CPU frequency alternates between min and max for niced background processes	1
+hard lockup when connecting some external monitors unless acpi_osi="!Windows 2006" - Sony Vaio SR290	1
+Limiting cpu time doesn't work	1
+BUG on fs/nfs/write.c:252 !	1
+pmac_zilog fails to find IRQ for internal serial modem	1
+subwoofer for Aspire 7720 isn't working	1
+savage: mmap2 of /dev/dri/card0 fails with EAGAIN since 2.6.29-rc6	1
+On GM965 KMS enabled kernel X does not draw untill mouse is moved. Probably IRQ problems.	1
+Fastboot Breaks Resume from S3.	1
+HDA Intel IDT and Nvidia MCP78 HDMI doesn't work	1
+iptables command gets spurious ELOOP errors	1
+SCSI Generic (sg): BUG: sleeping function called from invalid context	1
+r128: system hangs when X is started with DRI enabled	1
+ACPI: EC: missing confirmations, switch off interrupt mode on startup on 2.6.29 kernel	1
+SAMEIP --nodst functionality gone missing	1
+Kernel panics in early boot: IO-APIC + timer doesn't work	1
+found overlapping data buffer address	1
+Overlapping data buffer	1
+WARNING: at lib/dma-debug.c:539 check_sync+0xe9/0x341() (Not tainted)	1
+linux-2.6.29/drivers/isdn/mISDN/dsp_pipeline.c	1
+tg3 transmit timed out when transmitting at high bitrate	1
+Bisected - Panic - stack-protector kernel stack corrupted in snd_hda_find_mixer_ctl	1
+9p: protocol error with wstat	1
+9p: Problem with flushing interrupted read operations	1
+PCI-DMA: Out of IOMMU space	1
+kernel 2.6.28 doesn't boot - bisected - dell inspiron 2650	1
+2.6.28.9 causes init to segfault on Debian etch; 2.6.28.8 OK	1
+pppoe over ethernet	1
+consistent oops from request_key in 2.6.29	1
+nozomi: pppd fails on kernel 2.6.29	1
+cs5536 is broken	1
+Resume after hibernation regression in forcedeth	1
+media revalidation bug on USB card reader	1
+Deadlock/hang in SATA probe	1
+S3: 2.6.29 regression: network interfaces drop after resume - Dell Inspiron 600m laptop	1
+printk in xs_tcp_setup_socket needs rate limit ... and delay	1
+ACPI Error (hwvalid-0186): Denied AML access to port 0x00000080/4 (DMA1 0x0081-0x0083) [20090320] ACPI Exception (evregion-0422): AE_AML_ILLEGAL_ADDRESS, Returned by Handler for [SystemIO] [20090320]	1
+OQO 01+ doesn't power off since 2.6.24	1
+iwlagn wifi stopped working from 2.6.29-git to 2.6.30-rc1	1
+First hibernation attempt fails	1
+Devicemapper fails to load/initialise, root filesystem can not be accessed	1
+Intel HD Audio oops	1
+iwl3945: wlan0: beacon loss from AP - sending probe request	1
+Lockdep warining in inotify_dev_queue_event	1
+forcedeth seems to switch off eth on shutdown	1
+Fn + brightness up/down keys doesn't work if ACPI enabled - Samsung NC20	1
+Attansic/Atheros Gigabit LAN driver atl1 does not reinitialize on wakeup from S4	1
+hpet=force boot hang due to commit ff69f2bba67bd45514923aaedbf40fe351787c59	1
+ath5k resume regression with AR2413	1
+2.6.30-rc2 hangs in get_measured_perf on tigerton	1
+Kernel will freeze network after using a tun/tap device	1
+2.6.29-git12 breaks vga=0x0f07 on MSI/Intel GPU	1
+net, sky2: BUG: unable to handle kernel NULL pointer dereference, pci_vpd_truncate()	1
+can't anymore even do a s2ram-s2disk-s2ram cycle on acer aspire 5720G	1
+BUG: scheduling while atomic: swapper/0/0x10000100	1
+2.6.30-rc1: white screen during boot (regression) on spitz	1
+2.6.30-rc1 problems with firmware loading	1
+Linux 2.6.30-rc1 tg3 endian issues with MAC addresses on BCM5701	1
+Oops in drain_array	1
+Can't boot with nosmp	1
+RCU detected CPU 1 stall	1
+BUG: using rootfstype=ext4 causes oops	1
+Buggy _BCM - acer aspire 5720G, 5710Z, 5315	1
+20 ACPI interrupts per second on EEEPC 4G	1
+ioatdma: DMA-API: device driver frees DMA memory with wrong function	1
+active uvcvideo breaks over suspend	1
+BUG: MAX_LOCKDEP_ENTRIES too low! when mounting rootfs	1
+possible circular locking dependency detected while suspending laptop to S3	1
+_PPC used for thermals - Thinkpad T60	1
+Warning about reiserfs	1
+Panic while reboot/halt in nf_conntrack_helper_unregister()	1
+keyboard backlight brightness up/down keys doesn't work	1
+Dell Vostro laptop, keyboard does not work after startup occasionally	1
+2.6.30-rc2 soft lockups: ACPI?  clock source problem?	1
+2.6.30-rc3 : Regression: i915 , video	1
+2.6.30-rc2 + xorg-intel-2.7.0 + DRM_I915_KMS = corruption	1
+NULL pointer crash in early NMI handler	1
+IO-APIC + timer doesn't work!	1
+Crash in v2.6.30-rc3 (regression from 30-rc2)	1
+Apple wireless Mighty Mouse has inverted horizontal scrolling	1
+forcedeth: no link during initialization	1
+Left audio channel broken after resume from suspend with Intel HDA	1
+cpufreq timer teardown problem	1
+Linux doesn't boot because of incorrect DSDT unless acpi=off/acpi=ht - Panasonic Toughbook CF-52	1
+ath5k: nonfunctional, floods of "noise floor calibration failed" on cold boot	1
+Intel 440GX: Since kernel 2.6.30-rc1, computers hangs randomly but not with kernel <= 2.6.29.6	1
+IPv6 Privacy extension, temporary are not regenerated properly.	1
+compat-wireless: Frequent Probe Response timeouts and disassociations	1
+iwl3945 -- INFO: possible irq lock inversion dependency detected	1
+ext3/4 with synchronous writes gets wedged by Postfix	1
+2.6.27 regression - boot delays on battery, but not on A/C - Compaq Presario F756NR	1
+System Panics with emulex lpfc driver during the boot	1
+suspend fails, bisected 2.6.30 regression, pnp_bus_suspend() returns -5 -- HP Compaq nc6000	1
+possible circular locking dependency detected	1
+Side channel of Intel HDA chip doesn't work anymore, did work with 2.6.29	1
+x86_64 kernel misinterprets "reserve=" boot parameter	1
+After few hours (less than 3) Network module crash and I need to reboot	1
+BIOS _TPC always forces CPU to T3 - Clevo M720R w/ Intel T8100 CPU	1
+Error by disconnecting USB flash storage in 2.6.30-rc5 x86-64	1
+setting primary bootdevice (bios) to external vga, kernel mode setting for internal lvds fails	1
+2.6.30 regression - hang on 2nd resume - bisected - Thinkpad X40	1
+[PATCH]Leadtek WinFast DTV Dongle H is not detected	1
+ath5k: leds not working for Trust PCMCIA card (Atheros 5212)	1
+irq 9: nobody cared when resuming from suspend to ram	1
+wlan0 hang-up after iwconfig	1
+kernel panic -  not syncing : fatel exception in interupt	1
+modprobe ipmi_si hangs under 2.6.30-rc5	1
+at76c50x-usb mutex deadlock	1
+vm86old oops	1
+AGP doesn't work anymore on nforce2	1
+kernel crash with NULL pointer when boot	1
+[PATCH]Null pointer dereference in rtc-cmos driver	1
+Regression: 2.6.30-rc5 and rt2x00 / rt2500pci	1
+cifs_close: NULL pointer dereference	1
+nfs4 NULL pointer dereference in _nfs4_do_setlk	1
+FUTEX_LOCK_PI kills kernel	1
+[post 2.6.29 regression] hang during suspend of b44/b43 modules	1
+gelic get_wireless_stats implementation is not atomic	1
+panic when reading data from IDE CDROM with >= 2.6.29 kernels	1
+rpciod produces Invalid Opcode and makes NFS mounts to hang	1
+[PATCH]Unable to clone tagged VLAN interface for use with macvlan driver	1
+Problem with ACPI-Brightness and Hotkeys	1
+Oops in usb-serial with keyspan adapter	1
+fbcon, intelfb, i915: INFO: possible circular locking dependency detected	1
+Kernel crash with 2.6.29 + nfs + xfs (radix-tree)	1
+Microphone no longer works on Toshiba Satellite A100	1
+kernel/async.c broke pata_legacy.c	1
+ath5k trace and panic	1
+Warning 'Invalid throttling state, reset' gets displayed when it should not be	1
+check_early_ioremap_leak warning	1
+kernel crash SONY DVD-ROM with cd	1
+pktcdvd writing is really slow with CFQ scheduler (bisected)	1
+adb trackpad disappears after suspend to ram	1
+Barscanner (USB HID Keyboard) stopped functioning in kernels >= 2.6.28	1
+Sometimes (very rarely) one of CPU cores disappears after suspend/resume	1
+possible deadlock when doing governor switching	1
+found overlapping data buffer	1
+found overlapping data buffer	1
+Battery disappears after suspend/resume on HP laptop.	1
+general protection fault - sony VGN-Z540 laptop	1
+Unused bands in intefb console and smaller 180x56 -> 128x48	1
+fscache crash	1
+Machine doesn't boot due to mmconfig detection problem	1
+Oops with minicom and USB serial	1
+Oops whilst booting	1
+suspend/hibernate lockdep warning	1
+ath9k receives PCI FATAL interrupt under 2.6.30	1
+System report Int 6 error if E820 table reserve the memory above 4G	1
+Console uses less than full resolution	1
+snd-intel8x0 Clocks too fast	1
+Kernel panic - not syncing: Attepmted to kill init! (Fedora 10)	1
+Bad _BQC behavior on HP laptops	1
+Disconnecting PL2303 device while cu is connected to it cause oops	1
+BUG: scheduling while atomic	1
+2.6.30 fails when removing second battery - Thinkpad R400	1
+Keyboard doesn't work	1
+Kernel oops while online resizing of an ext4 filesystem	1
+SATA: link online but device misclassified	1
+Broken backlight control on Acer Aspire 8930G due to buggy DSDT/ACPI Video	1
+ath9k doesn't work with newer kernels	1
+drivers/serial/bfin_sport_uart.c:235: bad call to memset	1
+Root partition is not found	1
+Hard crash connecting via Huawei E169 + umtsmon	1
+the kernel oops when registering the ACPI proc I/F for the processors that use the same processor bus id	1
+GRO:__napi_complete call from net_rx_action crash	1
+acpi_enforce_resources broken - conflicting i2c module loaded on some EeePCs	1
+xfs hangs with assertion failed	1
+Tunnel device ignores TCP/UDP traffic	1
+NULL dereference in acpi_get_pci_dev	1
+[bisected] No sound on HDA Intel (ALC268)	1
+Intel HDA ALC861 doesn't work	1
+rt2870 driver is broken for (some) cards	1
+Touchpad lost synchronization after resume from suspend to RAM	1
+hibernation/swsusp lockup due to acpi-cpufreq	1
+fb/mmap lockdep report.	1
+Bad page state in process with various applications	1
+Problem with alloc_arch_preferred_bootmem() on powerpc	1
+system hangs after resume from suspend to disk, mce related	1
+possible recursive locking detected at kmem_cache_free	1
+Linux-2.6.31-rc1 Fails To Recognize Some USB Disks	1
+parisc: multiple PCI BAR collisions	1
+iwlagn (4965): no wireless due to RFKILL problem	1
+Crashes during boot on 2.6.30 / 2.6.31-rc, random programs	1
+suspend to ram regression (IDE related)	1
+commit 69c854817566 causes OOMs	1
+WARNING: at mm/page_alloc.c:1743 __alloc_pages_nodemask	1
+Kernel bug with dock driver	1
+Cannot get a snapshot from an logical volume	1
+HIGHMEM64G causes hang in PCI init on 32-bit x86	1
+The webcam stopped working when upgrading from 2.6.29 to 2.6.30	1
+Internal Laptopdisplay blurrys to white screen after enabling modesetting on Radeon X700 Mobility	1
+[PATCH] Work around negative s16 battery current on Acer	1
+i915 phantom TV	1
+usb error flood in dmesg, makes kde use plenty of cpu - bisected	1
+rt2500pci: MASQUERADE not working since 2.6.27	1
+b2c2-flexcop: no frontend driver found for this B2C2/FlexCop adapter w/ kernel-2.6.31-rc2	1
+Corrupted low memory after resume	1
+[2.6.30] Modesetting on Mobility Radeon X700 displays black screen	1
+p54 gets a "tx refused but queue active" WARNING from mac80211	1
+fio sync read 4k block size 35% regression	1
+Cannot Recognize Empty DVD Media	1
+2.6.31-rc2 soft lockups, RPC-related	1
+kernel BUG at fs/notify/notification.c:93!	1
+hitting lockdep limits...	1
+Inconsistent {IN-RECLAIM_FS-W} -> {RECLAIM_FS-ON-W} usage.	1
+tty layer instabilities	1
+regression in 2.6.31-rcX since commit a1091aa	1
+Soft-Lockup/Race in networking in 2.6.31-rc1+195	1
+2.6.30 leaking keys on console switch	1
+iwlagn (4965): regression when hardware rf switch is used	1
+Load average flatlines after returning from hibernate	1
+oops on HP/Compaq 6910p lid closure	1
+Lockdep complains about possible irq lock inversion dependency	1
+kmemleak + BUG: unable to handle kernel paging request	1
+AHCI on HP Compaq 6715s broken, did not detect slots/ports -> unable to boot	1
+KMS with Intel Graphic fails	1
+Macintosh mouse button emulation sending both mousebutton and keypress events	1
+NULL pointer dereference loading powernowk8	1
+System freeze at resume after suspend to RAM	1
+2.6.31 regression - boot crash in rcu_process_callbacks - DELL XPS M1330	1
+iBook G4 doesn't suspend since 2ed8d2b3a8	1
+system does not boot due to device-mapper error	1
+dv-grab firewire camera causes kernel crashes in 64 bit kernels	1
+oprofile: possible circular locking dependency detected	1
+Ooops on uplug	1
+Hangups in n_tty_read()	1
+emacs -nw compilation doesn't show the error message	1
+system freeze when switching to console	1
+QLA2XXX driver causes kernel oops with a qla2200	1
+eeepc-laptop: fix hot-unplug on resume	1
+thinkpad boots with backlight low	1
+PM/hibernate swapfile regression	1
+Kernel Oops when trying to suspend with ubifs mounted on block2mtd mtd device	1
+e1000e massive packet loss	1
+kernel BUG at include/net/netns/generic.h:41!	1
+KMS oops on 945G system	1
+2.6.31-rc4 boot failure	1
+Oops when writing to /sys/block/ram0/queue/max_sectors_kb	1
+Linux-2.6.31-rc4 fails to open a USB serial port	1
+inotify regression, missing events	1
+powernow-k8, cpufreq, scaling_max_freq != cpuinfo_max_freq	1
+CIFS mounts ignore uid argument (ok in 2.6.30.3)	1
+Can only resume with HP_WMI selected on compaq nc6000 when 4c395bdd3f2ca8f7e8efad881e16071182c3b8ca is reverted	1
+Microphone doesn't work on Toshiba Portege m750	1
+cpufreq bug (null pointer dereference)	1
+x86 CPA incorrect memtype reserving using set_pages_array_xx	1
+When using a crypted partition as swap on ARM linux page alocator keeps failing	1
+PCI resources allocation problem on HP nx6325	1
+ath5k with 168c:001c in Aspire ONE causes other nearby wireless clients to disassociate	1
+NULL pointer dereference by SRP initiator after restarting SRP target followed by SCSI reset of initiator	1
+intermittent hibernation problem	1
+2.6.31-rc4 broke expect and gcc's testsuite	1
+PAT wc & vmap mapping count issue	1
+Intel 3945ABG - problems on 2.6.30.X	1
+Oops from tar, 2.6.31-rc5, 32 bit on quad core phenom.	1
+Hibernation failure on dual core Athlon 64 (64-bit)	1
+Huawei E169 GPRS connection causes Ooops	1
+kernel crash with Oops: 0000 [#1] SMP, EIP is at rb_erase	1
+2.6.31-rc5 with radeon KMS enabled fails to boot on X1300 Pro	1
+e1000e reports invalid NVM Checksum on 82566DM-2 (bisected)	1
+MMC/SD card reader wont work on kernels higher than 2.6.24.x	1
+Kernel Panic ieee80211_agg_splice_packets with Atheros AR9160 in Wireless N AP mode	1
+kernel oops when trying to use gigabyte u8000 dvb dongle	1
+second resume after s2ram fails	1
+System lockup on dual Pentium-3 with kernel 2.6.30	1
+cannot unmute sound by press mute button on Thinkpad T500	1
+2.6.31-rcX breaks Apple MightyMouse (Bluetooth version)	1
+2.6.31-rc1 - iwlagn and sky2 stopped working when ACPI enabled - Toshiba U400-17b, Acer Aspire 8935G	1
+Troubles with AoE and uninitialized object	1
+MD raid regression	1
+x86 MCE malfunction on Thinkpad T42p	1
+Libertas: Association request to the driver failed	1
+ath5k broken after suspend-to-ram	1
+Oops when USB Serial disconnected while in use	1
+in function device_authorization mutex is not released on  error  path.	1
+Boot freeze due to b43 wireless driver	1
+Apple PowerMac11,2 and ATI Radeon X1900 PCIe: no frame buffer console	1
+Received NMI interrupt at resume	1
+prism 2.5 broke in 2.6.30.x	1
+gspca: Division by zero on exceeded bandwidth	1
+hd don't show up	1
+kernel bug at shut down	1
+pty regressed again, breaking expect and gcc's testsuite	1
+mm/ipw2200 regression	1
+kernel freezes, inotify problem	1
+Kernel NULL pointer dereference at 0000000000000008, pty-related	1
+dvb_usb_af9015: Oops on hotplugging	1
+e1000_clean_tx_irq: Detected Tx Unit Hang, more then 4 GB Memory	1
+Kernel blocks during rsync to NFS-mounted directory exported from Sun OS machine	1
+Strange network timeouts w/ e100	1
+Oops in fsnotify	1
+DomU crashes during xenfb initialization	1
+Crash due to buggy flat_phys_pkg_id	1
+Failure to boot as xen guest	1
+Userspace hangs during boot due to inotify change	1
+MSI EC special treatment enabled for non-MSI notebooks	1
+acpi_ec_ecdt_probe() causes too early invocation of acpi methods	1
+WARNING: at fs/notify/inotify/inotify_user.c:394	1
+cdc_acm gives I/O error	1
+Wifi does not work (AR242x)	1
+Tuning a saa7134 based card is broken in kernel 2.6.31-rc7	1
+2.6.31 regression - pci_get_slot oops, udev boot hang - toshiba X200	1
+WARNING: at arch/x86/kernel/smp.c:117 native_smp_send_reschedule	1
+WARN_ON: fs/buffer.c:1152 mark_buffer_dirty	1
+NULL pointer dereference in ima_counts_put	1
+readcd Oops	1
+Regression in suspend to ram	1
+Output to external monitor is broken	1
+order 2 page allocation failures in iwlagn	1
+OOPS when setting nr_requests for md devices	1
+System unresponsive if I unplug network cable while ethtool -p is running	1
+BUG: soft lockup - CPU#3 stuck for 61s!, while running cpu controller latency testcase on two containers parallaly	1
+end_request: I/O error, dev cciss/cXdX, sector 0	1
+AIC79xx is not working properly with an attached scsi tape since 2.6.29	1
+Data loss in CDC-ACM reception	1
+Unknown boot option warning message should not be printed for options which will be passed to kernel modules	1
+Lockup in pty_write/tty_wakeup when using PPTP	1
+b43 causes panic at ifconfig down / shutdown	1
+b43 firmware filenames are limited to 29 characters	1
+Wireless cards cannot associate to APs (wpa_supplicant keeps doing scans)	1
+kernel oops with latest tg3 changes	1
+Brightness set to max on startup by acer-wmi module	1
+Kernel hangs on Compaq Evo N800c with ACPI enabled	1
+BUG at drivers/scsi/scsi_lib.c:1108!	1
+iwlagn-4965: WPA Authentication times out	1
+Hibernation oopses for the 2nd time with 2.6.31 (won't fit the screen)	1
+tty change breaks resume from hibernation on MSI Wind U100	1
+found a possible null pointer dereference in file linux-2.6.31/sound/soc/soc-jack.c	1
+Unable to unload b43 module	1
+ACPI Exception: AE_TIME, Returned by Handler for [EmbeddedControl] flooding logs	1
+BUG: oops in gss_validate on 2.6.31	1
+WARNING: at drivers/char/tty_io.c:1267	1
+kernel BUG at fs/ext3/super.c:435	1
+NFS problem with past 2.6.31 git tree	1
+T400 suspend/resume regression	1
+e1000e jumbo frames no longer work: 'Unsupported MTU setting'	1
+Wireless regression in 2.6.32-git	1
+2.6.31-git wireless broken	1
+ifconfig: page allocation failure. order:5, mode:0x8020 w/ e100	1
+regression in page writeback	1
+Early boot exception	1
+Something seems wrong with process time accounting	1
+radeon KMS unusable on RadeonHD 3650	1
+kernel>=2.6.31: ahci.c: do not force unconditionally sb600 to 32bit dma any more?	1
+nfsroot will not remount rw and claims illegal options	1
+New message "NOHZ: local_softirq_pending 08" at each ping request	1
+Suspend to RAM freeze totally since 2.6.32-rc1 - Acer Aspire 1511Lmi laptop	1
+ext4: fixpoint divide exception at ext4_fill_super	1
+Random Lockup with automount, mysqld,  and kswapd0 error messages.	1
+spitz boots but suspend/resume is broken	1
+warning at manage.c:361 (set_irq_wake), matrix-keypad related?	1
+BUG_ON crash w/ ext4	1
+WARNING: at net/ipv4/af_inet.c:154	1
+Kernel panic on i386 machine when booting with profile=2	1
+[bisected] 2.6.31 regression sis5513 PIO Mode 0 hang	1
+drm/i915: temporal screen corruption with framebuffer compression	1
+Commit a9327cac440be4d8333bba975cbbf76045096275 causes iostat output	1
+Sata disk doesn't wake up after S3 suspend	1
+pcmcia suspend regression from 2.6.31.1 to 2.6.31.2 - Dell Inspiron 600m	1
+[Pardus] Soft Lockup Problem with Attansic Ethernet Card	1
+PCI host bridge driver accepts invalid apertures	1
+Hard system lockup during association with WEP/WPA2 networks using ath5k	1
+AML Sleep() in EC _REG causes boot delay	1
+WARNING: at net/mac80211/scan.c:267	1
+BUG: sleeping function called from invalid context at kernel/mutex.c:280	1
+Bad corruption with 2.6.32-rc1 and upwards	1
+USB serial regression after 2.6.31.1 with Huawei E169 GSM modem	1
+ath9k crashes after resume	1
+ath5k wireless not working after suspend-resume - eeepc	1
+Task blocked for more than 120 seconds	1
+MCEs caused by commit db8be50c4307dac2b37305fc59c8dc0f978d09ea	1
+Kernel NULL pointer dereference/ kvm subsystem	1
+conservative cpufreq governor broken	1
+Video tearing/glitching with T400 laptops	1
+iwlagn lost connection after s2ram (with warnings)	1
+Transmit failure in et131x.	1
+keyboard under X with 2.6.31	1
+bind a device to a driver doesn't not work anymore	1
+use after free of struct powernow_k8_data	1
+Touchpad "paste" stops working after suspend to RAM	1
+disable/enable wlan broken with ath5k	1
+Atheros ath9k module is not working with 2.6.31.1 on an Acer Extensa 7630EZ	1
+backlight controls gone mad - ATI HD 3650	1
+Computer becomes unusable without any apparent reason	1
+[PATCH] IDE Probe fails to find CD drive	1
+No wireless connection with Ralink RT2500 since update to kernel 2.6.31	1
+EFI boot on x86 fails in .32	1
+hso soft-lockup	1
+freez in TCP stack	1
+EXT4 corruption	1
+ATA related kernel warning after resume	1
+restorecond going crazy on 2.6.31.4 - inotify regression?	1
+possible circular locking dependency in ISDN PPP	1
+umount blocked for more than 120 seconds after USB drive removal	1
+kernel BUG at fs/dcache.c:670 +lvm +md +ext3	1
+System lockup running "cat /sys/kernel/debug/dri/0/i915_regs"	1
+PANIC: early exception 08 rip 246:10 error ffffffff810251b5 cr2 0	1
+NFSv4 mount: Open,fork,Lock,Read: Read denied because it uses the OPEN state instead of the LOCK state	1
+intermittent hibernation problem again	1
+No sound with UDA134x sound driver	1
+Unable to associate with AP after resume since 2.6.32-rc6	1
+getcwd() incorrectly returning ENOENT...	1
+Bit 6 swizzle detection is broken on older i965 laptops	1
+Off-by-two stack buffer overflow in function rpc_uaddr2sockaddr() of net/sunrpc/addr.c	1
+INFO: possible circular locking dependency detected	1
+2.6.30.9: OOPS on nfs server shutdown	1
+SCSI tape driver: Spurious EIO and kernel BUG	1
+Kernel panic: EDAC MC0: INTERNAL ERROR: channel-b out of range	1
+Data Corruption with Adaptec 52445, Firmware 5.2-0 (17380)	1
+b43 crashes very often(oops inside) in ap mode	1
+NFSv4 crash	1
+Kernel panic - not syncing: stack-protector: Kernel stack is corrupted in: ccccb5b0	1
+ISDN-B-channel-bundling broken	1
+thinkpad-acpi: driver fails to load on old BIOS for the A31, T23-T30, X30-X31	1
+Commit 4ae0ff606 break probing of cardbus	1
+erroneous code in /usr/src/linux-source-2.6.31/drivers/input/mouse/lifebook.c	1
+2.6.31.6 - Keyboard nearly everytime dead after acpi s3 resume	1
+ext3/jbd oops in journal_start	1
+Mount -o sync regression in 2.6.31	1
+ath9k: BUG kmalloc-8192: Poison overwritten	1
+Commit d451564 breaks ARM	1
+i915: *ERROR* Execbuf while wedged	1
+Oops on i915 on 8086:a011 pine trail	1
+sched_rt_periodic_timer vs cpu hotplug	1
+ath9k txpower configuration only takes effect after scan	1
+PROBLEM: system locking when burning dvd with an externel usb dvd writer	1
+Got a warning when ath9k running as AP	1
+Regression in efi.c	1
+bisected 2.6.32 EC regression - Temperatures not correctly detected after suspend	1
+Resume from disk hangs in acpi_ex_acquire_global_lock	1
+i915: playing video via XVideo extension makes the screen flicker	1
+WARNING: at drivers/net/wireless/ath/ath5k/base.c:1142 ath5k_tasklet_rx+0x47a/0x5f0	1
+Complete NAPI IRQ lockup in b44 driver: code fundamentally incompatible with netconsole requirements	1
+Broken system because of a bad ACPI commit	1
+8169 hangs box hard under heavy load	1
+HP Compaq 615 laptop doesn't boot starting with kernel 2.6.3x, ssb and 43 fail unless "acpi=off"?	1
+closing and re-opening the lid does not reactivate the backlight	1
+sky2 won't work after suspend/resume cycle	1
+[PATCH]Oops: ACPI: EC: input buffer is not empty, aborting transaction - 2.6.32 regression - Acer_Aspire_5730ZG	1
+Toshiba P305D unhandled ACPI Interrupt	1
+2.6.32 new menu idle governor causes very high CPU temp - HP zv5000 (P4/2.66GHz)	1
+New rtl8187 rfkill support prevents using wlan completely.	1
+e1000e NIC not working after reboot	1
+RT2500 driver: cannot connect to network (regression, bisected)	1
+ACPI Errors: Index beyond end of object, parse/execution failed, _BCM failed - Asus Notebook X5DIJ-SX101L	1
+wireless keeps disconnecting and will not reconnect without reboot.	1
+181a533 is causing severe screen flickering on 965GM	1
+Suspend hangs with SD card inserted	1
+Unhandled IRQ on Thinkpad R61i: "irq 16: nobody cared"	1
+Regression in 9f15226e7 (x86, ucode-amd: Ensure ucode update on suspend/resume after CPU off/online cycle)	1
+No network interface using Kernel 2.6.31	1
+Something has been broken in the network stack this week	1
+ath5k + hostapd causes flood of interrupts	1
+b43 fails w/ latest git (ERROR: Microcode not responding)	1
+dynamic tables aren't loaded early enough	1
+acerhdf: unknown (unsupported) BIOS version Acer/TravelMate 290 /V2.00	1
+X11 screen black after resume, only mouse pounter is seen	1
+No more wireless interface eth1 after boot	1
+acer-wmi kernel OOPS, cannot create duplicit sysfs name	1
+therm_adt746x might have inverted fan speed logic	1
+ACPI events on T20 thinkpad stop being reported	1
+No DP-DVI output when laptop is docked	1
+Resume from suspend fails on intel 4965 AGN	1
+flood of "don't try to register things with the same name in the same directory." on upgrade to 2.6.32	1
+Ath5k regression with commit 8bf3d79bc401ca417ccf9fc076d3295d1a71dbf5	1
+acpi=ht stopped working in 2.6.32 - Asus P2B-DS not detected as SMP motherboard	1
+suspend doesn't work on X200s	1
+System wakeup by time not working anymore	1
+[WMI?] boot hang	1
+Deadlock regression related to NFS root	1
+intel, KMS, suspend2ram resume, screen black	1
+REGRESSION for RT2561/RT61 in 2.6.32, related to power saving	1
+i915: Commit 0e442c60 causes flickering	1
+reiserfs: inconsistent lock state	1
+drm_i915 error	1
+bisected crash due to "x86: Move swiotlb initialization before dma32_free_bootmem"	1
+Boot ends not on tty1	1
+boot problem bisected to commit 99935a7a59	1
+256MB CF card no longer recognized in PCMCIA slot	1
+pata_cmd64x broken in 2.6.33-rc1	1
+Stable version 2.6.32.2 broke my KMS Radeon setup	1
+Successful resume from suspend but freezes after I/O	1
+2.6.32 seemed to have broken nVidia MCP7A sata controller	1
+Regression in 2.6.32.2: segfault on halt	1
+KMS:RV370:X300 GPU lockup ('some' web-sites in Firefox)	1
+sky2 panic under load	1
+ucc_geth broken	1
+kernel crash during boot	1
+kernel BUG at fs/ext4/inode.c:1063 if attempted to use non-ext4 partition with ext4	1
+drm: random hang with i915	1
+agpgart-amd64 not initialized	1
+gkrellm no longer shows all the temperatures on thinkpad x60	1
+nfs regression?	1
+2.6.32.2 SATA link detect failed, 2.6.32.1 works fine	1
+All kernels after 2.6.32-git10  show only 1 CPU	1
+EHCI resume sysfs duplicates	1
+lockdep possible recursive lock in slab parent->list->rlock	1
+warning from alloc_pages_nodemask on boot -- caused by commit 78f1699659963fff97975df44db6d5dbe7218e55	1
+Blank screen with KMS enabled	1
+r8169 hangs when your transmission speed is really high.	1
+IBM Trackpoint Device changed - Scrolling doesn't work	1
+tg3 does not resume from hibernation properly on BCM5787M	1
+HPET WARNING at kernel boot	1
+possible circular locking dependency detected in rfkill at suspend	1
+Dritek quirk for Acer Aspire 5610	1
+blank screen at random times in laptop when sitting idle	1
+kexec regression, radeon/kms irq related (bisected)	1
+agpgart sometimes fails to initialize sometimes	1
+i915: Resume regression on MSI Wind U100 w/o KMS	1
+bug in fs/btrfs/ordered-data.c:672	1
+drm: gem_object_free without struct_mutex	1
+BUG: unable to handle kernel paging request in rs600_gart_set_page()	1
+soft lockup in dmesg after suspend/resume	1
+BUG during shutdown - bisected to commit e2912009	1
+drm/ksm: fbdev blanking regression	1
+Display goes off with i915.powersave=1 after suspend-resume	1
+lvds downclocking breaks on G45/thinkpad T500	1
+No connectivity with tg3 since 87668d352aa8d135bd695a050f18bbfc7b50b506	1
+[ath5k] led doesn't work on 3Com Corporation 3CRPAG175 Wireless PC Card	1
+EC init fails? - Constant ACPI temperature, no fan control, hot system throttles - Compaq Presario C700 Notebook PC	1
+kernel mode switching broken on i830	1
+IBM/Lenovo Trackpoint speed, sensitivity reset after suspend	1
+firewire-net: panic in prio_tree_left (was in fwnet_write_complete)	1
+s2ram is broken for (un-)docked T400	1
+ThinkPad key on T20 only works after suspend cycle	1
+iwl_bg_scan_completed: WARN on scan complete	1
+laptop hangs up on s2disk - Lenovo thinkpad T61	1
+GSPCA T613+STK014 V4L2-spec-violations	1
+PCI host bridge windows ignored (works with pci=use_crs)	1
+Bluetooth: sleeping function called from invalid context	1
+Boot regression on AMD	1
+[OOPS] radeon kms	1
+Wake on LAN doesn't work in sky2	1
+gobi_loader hangs after commit 8e8dce065088	1
+Kernel 2.6.32.x hangs during boot process	1
+clockevents patch causes hang on power off	1
+NULL pointer dereference in vlan_skb_recv	1
+sysfs-related lockdep warning in __blkdev_get	1
+HDA Intel Audio hang on boot	1
+2.6.32.6 hang at boot with ati x1600	1
+iwlagn doesn't work after resume - acer_wmi rfkill state not restored - Lenovo Ideapad u330	1
+Radeon KMS: [RV730] Garbled kwin shadows and pixmaps	1
+second suspend fails and system freezes in hp 6910P laptop	1
+ENE CB712 CardBus bridge needs special treatment with Echo Audio Indigo soundcards	1
+tty: possible irq lock inversion dependency in tty_fasync	1
+kernel BUG at include/net/netns/generic.h:41, pfkey_create+0x36/0x18b [af_key]	1
+kmem_cache_create: duplicate cache ccid2_h	1
+padlock_sha1 and hmac broken?	1
+Radeon KMS regression	1
+NFS problems in 2.6.33-rc6: Unknown error 526	1
+lockdep warning during elevator_switch	1
+Pineview - only cursor on black screen visible, "GPU hung" in dmesg	1
+DRI can't be enabled on ia64 systems	1
+Kernel freezes when playing DVB stream and having 3D acceleration in the same time	1
+recurring fscache oops on 2.6.32	1
+Enabling netconsole triggers kernel bug	1
+[2.6.33-rc5] tty: possible irq lock inversion dependency in tty_fasync	1
+drm/i915: implement new pm ops disables irq on aborted s2disk	1
+Bizarre reproducible resume failure on MBP	1
+Netbooting can lead to arbitrary commands execution	1
+Regression in ptrace (Wine) starting with 2.6.33-rc1	1
+latest git kernel: general protection fault: 0000 [#1]	1
+RadeonKMS segfaults kdm on mobility radeon x700 pcie	1
+scaling_max_freq value lost upon suspend	1
+WLAN cannot be activated if booted with activated RF kill switch on Sony notebook (iwl3945)	1
+Dell video dies when booting	1
+2.6.33-rc8 breaks UML with Restrict initial stack space expansion to rlimit	1
+ACPI/ata regression with hotplugging the dvd drive	1
+Removing external USB btrfs drive causes kernel crash	1
+[855GM] random freezes	1
+high load avg, extreme sluggishness on T41 w/ Radeon Mobility M7	1
+Issue: r6040 crashes in function r6040_multicast_list	1
+sysfs oops when reading current_clocksource if GENERIC_TIME=n	1
+i915: resume from hibernate locks up every 2nd time	1
+regression (oops) with usb in 2.6.33-rc8	1
+resume after hibernate: /dev/sdb returns as /dev/sdd	1
+All Lenovo i5/i7 notebooks do not resume properly after suspend - system resumes but will hang if resumed a second time	1
+WARNING: at net/mac80211/mlme.c:2090 ieee80211_sta_work	1
+ipw2200: requesting scan causes connection drops	1
+IWLAGN gives errors with 802.11n enabled	1
+r8169 fails to bring up ethernet	1
+[regression] Fails to boot properly unless given pci=nocrs	1
+BUG: key ffff88013d4f4c70 not in .data! when loading microcode.ko	1
+Flood of SELinux denials on polkitd	1
+2.6.34-rc1 crashes early while startup	1
+render error detected, EIR: 0x00000010	1
+No more b43 wireless interface since 2.6.34-rc1	1
+Undock button missing event - ThinkPad X40	1
+Blank screen after some time, after hibernation/suspend	1
+[BUG] NULL pointer dereference in i915_gem_object_save_bit_17_swizzle	1
+2.6.34-rc1 hangs for 30 seconds when trying to access the disk	1
+black screen upon S3 resume, syslog has "render error" and "page table error"	1
+BUG: key f70f4b50 not in .data	1
+WARNING: at net/mac80211/work.c:811 ieee80211_work_work+0x7f/0xde8 [mac80211]()	1
+Watchdog problems	1
+iwlwifi disconnects several times in a row	1
+Crashes after a few stacktraces in flush and kswapd	1
+[Bisected Regression in 2.6.32.8] i915 with KMS enabled causes memorycorruption when resuming from suspend-to-disk	1
+2.6.34-rc1: Badness at fs/proc/generic.c:316	1
+2.6.34-rc1: regression: ^Z no longer stops sound	1
+cannot halt my computer.	1
+[BUG] SLOB breaks Crypto	1
+r8169: Reports incorrect link information	1
+Acer Timeline TravelMate 8571: suspend to RAM fails	1
+NULL pointer deref in task_is_waking	1
+[BUG] percpu misaligned allocation	1
+2.6.34-rc1 breaks via82cxxx Host Protected Area	1
+Kernel 2.6.32 & Kernel 2.6.33 --> b43 not working with Broadcom 14e4:4315	1
+printk timestamps messed up after suspend/resume	1
+iwlwifi fails on high order allocations	1
+corrupt ext3 fs and partial freeze	1
+[Regresion] [2.6.34-rc1] [drm:i915_hangcheck_elapsed] *ERROR* Hangcheck timer elapsed... GPU hung	1
+PROBLEM: crash on halt with 2.6.34-0.16.rc2.git0.fc14.x86_64	1
+hpet warning and strack trace on Toshiba Satellite A505	1
+Graphics hang and kernel backtrace when starting Azureus with Compiz enabled	1
+general protection fault from iwlagn	1
+start_kernel(): bug: interrupts were enabled early	1
+intel graphic card hanging (Hangcheck timer elapsed... GPU hung)	1
+2.6.34-rc2: "ima_dec_counts: open/free imbalance"?	1
+[2.6.34-rc2 NFS4 oops] open error path failure...	1
+2.6.34-rc3 breaks headphone-output for ALC262	1
+Oopses in conjunction with wireless, ath9k	1
+calling pm-suspend freezes system	1
+Freeze on power-off / suspend to ram	1
+rt2500usb driver cannot remain connected	1
+_REG evaluation required while no EC OperationRegion	1
+[regression] 2.6.34-rc1 to -rc3 on zaurus: no longer boots	1
+vmscan: underflow for get_scan_ratio	1
+File corruption regression on NFS related to commit 1f36f774	1
+virtio_net causing kernel BUG when running under VirtualBox	1
+2.6.34-rc3 doesn't suspend to disk (-rc2 did)	1
+BUG: physmap modprobe & rmmod	1
+Ugly rmap NULL ptr deref oopsie on hibernate (was Linux 2.6.34-rc3)	1
+Crash when accessing nonexistent GTT entries in i915	1
+Ooops when working with USB MIDI (2.6.33.1)	1
+[2.6.34-rc1 REGRESSION] ahci 0000:00:1f.2: controller reset failed (0xffffffff)	1
+bisected 2.6.34-rc3+git EC regression - can't boot after fix from bug #14667	1
+lid or keyboard no longer trigger suspend	1
+2.6.33.2 circular locking, hibernate, dm-crypt	1
+Warning in ath9k after update from 2.6.33.1 to 2.6.33.2	1
+Incorrectly calculated free blocks result in ENOSPC from writepage	1
+2.6.34 RC3 and RC4: BUG: unable to handle kernel NULL pointer dereference at 0000001c at apbt_cpuhp_notify+0x52/0x130	1
+external usb sound card doesn't work after resume	1
+Bind mounts broken when used with NFSv4	1
+[REGRESSION bisected] Sound goes too fast due to commit 7b3a177b0	1
+kernel BUG at kernel/power/snapshot.c:522	1
+2.6.34rc4 NFS writeback regression (bisected): client often fails to delete things it just created	1
+[Sony Corporation VGN-NS130FE] suspend/resume failure	1
+Another BUG_ON() in blkio controller	1
+crash in inet6_csk_bind_conflict	1
+2.6.34-rc5+: oops in IPv6	1
+2.6.34-rc5-git7 (plus all patches) -- another suspicious rcu_dereference_check() usage.	1
+acpi_idle: Very idle Core i7 machine never enters C6	1
+Intel WiFi Link 5150ABG - connection broken or freezing when transferring large files	1
+PNP resource assignment fails	1
+Not able to use nozomi modem	1
+open("a/",O_NOFOLLOW) fails with ELOOP if "a" is a symbolic link to a directory.	1
+kacpid consumes ~100% CPU, system freezes randomly	1
+Suspicious rcu_dereference_check() usage detected during 2.6.34-rc6 boot on PPC64/p5 processor	1
+Xonar D1 front panel microphone cannot be activated	1
+commit 9630bdd9 changes behavior of the poweroff	1
+I/O port range not assigned, BIOS allocation gets lost	1
+BUG: rtc_cmos (2.6.34-rc7)	1
+radeon regression couldn't schedule IB on resume with 2.6.34-rc7	1
+BUG: amd64-agp (2.6.34-rc7)	1
+Eeepc 900 reports incorrect battery status	1
+radeon module update for 2.6.34 breaks ALSA (snd_atiixp and snd_hda_intel)	1
+Kernel OOPS with Null pointer dereference after closing rfcomm connection to device which had gone away	1
+ioremap error with radeon (KMS)	1
+[Regression] `mount --bind` no longer works with files in 2.6.34	1
+yenta_socket.c  broken wireless cards.	1
+TFP410 driver should use RSEN bit to detect presence of a digital monitor	1
+Failed to receive control of PCIe PME service: ACPI _OSC failed	1
+2.6.34: dlm: possible circular locking dependency detected	1
+NULL Pointer dereference in __ir_input_register/budget_ci_attach	1
+Resume w/USB remote working in 2.6.33.2, no longer in 2.6.33.10	1
+one core is always at 100% while the others at less than 5%	1
+Crashes / traces after copying large files over NFS	1
+[Regression][git head f4b87dee9] ath9k doesn't work correctly after resume from suspend to RAM	1
+host panic on kernel 2.6.34	1
+iwl3945 bug in 2.6.34	1
+sysfs: cannot create duplicate filename	1
+Caught 64-bit read from uninitialized memory in memtype_rb_augment_cb	1
+joining a mesh causes kernel fault with rt73	1
+Radeon KMS does not start after merge of the new PM-Code	1
+hostap_pci: infinite registered netdevice wifi0	1
+Oops: 0000 [#1] SMP, unable to handle kernel NULL pointer dereference at (null)	1
+Boot freeze on HP Compaq nx6325 (RS482) with Radeon KMS	1
+kernel BUG at fs/btrfs/extent-tree.c:4363 (btrfs_free_tree_block)	1
+PCMCIA regression	1
+Unable to boot unless "notsc" or "clocksource=hpet", or acpi_pad disabling the TSC	1
+ksoftirq hogs the CPU	1
+Lagging sound while closing/opening lid.	1
+No Sound with 2.6.34.x Kernel with my Audio-Chip	1
+2.6.35 Radeon KMS power management regression?	1
+[2.6.35-rc1 Regression] i915: Commit cfecde causes VGA to stay off	1
+Complain from preemptive debug	1
+After uncompressing the kernel, at boot time, the server hangs.	1
+2.6.35-rc2 : OOPS with LTP memcg regression test run.	1
+radeon regression with 2.6.35-rc2-00001-g386f40c: black screen after resume	1
+Container, X86-64, i386, iptables rule	1
+[BUG on 2.6.35-rc2] sysfs: cannot create duplicate filename '/devices/pci0000:00/0000:00:11.0/0000:02:03.0/slot'	1
+2.6.35-rc2-git1 - include/linux/cgroup.h:534 invoked rcu_dereference_check() without protection!	1
+2.6.35-rc3 regression linked to 597a264b1a9c7e36d1728f677c66c5c1f7e3b837	1
+Some NFS/RPC file transfers fail and hang automounting	1
+sysfs: cannot create duplicate filename '/class/net/bnep0'	1
+md/raid/udev fails to create md partition devices (/dev/mdXpY)	1
+2.6.35-rc2-git5 -- [drm:drm_mode_getfb] *ERROR* invalid framebuffer id	1
+2.6.35-rc{12} regression: inactive console corrupted	1
+BUG/boot failure on Dell Precision T3500 (pci/ahci_stop_engine)	1
+inconsistent IN-HARDIRQ-W -> HARDIRQ-ON-W usage: fasync, 2.6.35-rc3	1
+Noticeable slow-down in 2.6.35-rc3	1
+[REGRESSION] [IWL3945] Broadcast is broken?	1
+Battery insert while system is asleep causes sometimes a crash	1
+drm/i915 BUG with 2.6.35-rc	1
+inconsistent lock state	1
+hda realtek missing beep mixer control for chip 10ec0883	1
+2.6.35-rc3 deadlocks on semaphore operations	1
+tpm_tis breaks suspend/hibernate on kernels > 2.6.34	1
+2.6.35-rc3 regression: IBM Maia system is unbootable [ACPI related?]	1
+switching to 2.6.34 broke audio on toshiba satellite x205-s9800 using snd_hda_intel module	1
+lvm snapshot causes deadlock in 2.6.35	1
+i915 is unusable due to CRT hotplug bug	1
+[Q35 bisected] hang at init of i915 driver	1
+[bisected] i915 in kernel 2.6.35-rc3, high number of wakeups	1
+2.6.35-rc3 oops trying to suspend.	1
+WARNING: at fs/fs-writeback.c:1127 __mark_inode_dirty	1
+WARNING: at /arch/x86/include/asm/processor.h:1005 read_measured_perf_ctrs+0x5a/0x70()	1
+2.6.35-rc3-git4 - kernel/sched.c:616 invoked rcu_dereference_check() without protection!	1
+Oops while running fs_racer test on a POWER6 box against latest git	1
+Dynamic Debug broken on 2.6.35-rc3?	1
+Kernel crashes in tty code (tty_open)	1
+X:2252 conflicting memory types 40000000-48000000 uncached-minus<->write-combining	1
+Various issues with imon remote control driver	1
+2.6.35-rc4 Graphics performance issue and freeing invalid memtype messages on boot.	1
+acpi-cpufreq fails to load (No such device) if CONFIG_SMP=n	1
+Yet another 2.6.35 regression (AGP)?	1
+Regression 2.6.34->2.6.35-rc4: radeaon KMS an RS690 broken	1
+i915 drm BUG: unable to handle kernel paging request at a5e89046	1
+New PM-Code produces white screen on laptop display on startup on an radeon x700	1
+BUG at arch/x86/mm/physaddr.c:5	1
+kernel BUG at fs/block_dev.c:765!	1
+Regression since commit 0b28bac5aef	1
+[bisected] resume from suspend freezes system	1
+perf failed with kernel 2.6.35-rc	1
+2.6.35-rc5 inconsistent lock state	1
+Brightness Adjustment on Toshiba nb305 Netbooks is non-functional.	1
+Badness with the kernel version 2.6.35-rc1-git1 running on P6 box	1
+Psx parallel joystick does not respond after upgrading kernel	1
+the pci device is incorrectly bound with ACPI device	1
+netfilter/iptables stopped logging 2.6.35-rc	1
+2.6.35-rc5 panic at __br_deliver+0x64/0xe0 with kvm bridge networking	1
+suspend2ram doesn't possible any more under X11	1
+Bluetooth disabled after resume	1
+unable to connect to hidden SSID AP on legal channel 13	1
+pathconf(, _PC_NAME_MAX) returns small value for long Unicode filename on fat FS	1
+e1000 doesn't work on machines with more than 4GB of RAM - Detected Tx Unit Hang	1
+Power management does not work for ATI radeon 4870	1
+ATH9K:Linux hangs on multi-core CPU with AR9160-based device	1
+shifted xorg-screen with i830 integrated video	1
+Kernel OOPS with Radeon KMS, bisected.	1
+2.6.35 suspend regression (bisected)	1
+2.6.34.2 breaks b43	1
+2.6.32: BUGs in cfq-iosched.c:2329 with EMC multipathing	1
+unexpected high load since 2.6.35	1
+random suspend (S3) problems on Intel DG45ID board	1
+audio stop playing after while	1
+TREE_RCU hangs at boot	1
+lvm hangs when creating snapshots of the root partition with 2.6.35	1
+2.6.35 regression: apci_ns_lookup+0x125/0x57e NULL pointer after ACPI Error: Could not map memory at 0x000000007D422720 - Samsung NP-X120-XA02 laptop	1
+/proc/<pid>/stat incorrect user and kernel time accounting	1
+random panics in bridging on 2.6.34+	1
+rt2800pci driver working on Ralink rt2860 throws Michael MIC failure when connecting to a wpa2-tkip wireless network.	1
+i8042 kernel module failed to load after unloading	1
+[2.6.35] usb 2.0 em28xx  kernel panic general protection fault: 0000 [#1] SMP          RIP: 0010:[<ffffffffa004fbc5>]  [<ffffffffa004fbc5>] em28xx_isoc_copy_vbi+0x62e/0x812 [em28xx]	1
+inconsistent lock state at boot	1
+close()/fsync() returns 1 or 2 (or more) on nfs v3/v4	1
+Machine hangs with EIP at skb_copy_and_csum_dev	1
+fix BUG: using smp_processor_id() in preemptible code (resend)	1
+wdev_cleanup_work / iwlagn	1
+The boot process freezes and needs keyboard input to continue - Bisected to Commit 988888c, bootup hangs	1
+All blocks of an older NAND device reported bad	1
+Corrupted low memory	1
+IPW5100: iwlagn broken with 2.6.34.x to 2.6.35.2 update	1
+i915: bisected - "TV1 connected" with no tv	1
+Kernel panic while loading intel module during boot	1
+[BUG] Nand support broken with v2.6.36-rc1	1
+kernel BUG at arch/x86/kvm/../../../virt/kvm/kvm_main.c:1978	1
+Toshiba Laptop won't boot if I don't provide pci=nocrs on command line	1
+[2.6.36 regression] Under linux console gpm cursor now going to opposite direction of mouse	1
+2.6.36-rc1 hangs during XFS barrier test for /	1
+possible esata regression in 2.6.35	1
+i915: 2.6.36-rc2 hoses my Intel display	1
+Kernel NULL pointer dereference in r600_ioctl_wait_idle	1
+instant crash (jump to NULL) with virtio-net, tap, bridge and veth	1
+[lxc] gdb cannot debug bash properly in an LXC container	1
+i915: 2.6.36-rc2 wrong resolution on gdm start	1
+2.6.36-rc2-git4 - INFO: possible circular locking dependency detected	1
+kdump regression compared to v2.6.35	1
+Module intel-agp causes page fault	1
+Unable to set txpower on rt2860 mini-pci wifi card	1
+lm_sensors returns wrong CPU temperature values with k8temp	1
+2.6.36-rc3: WARNING: at net/mac80211/scan.c:269 ieee80211_scan_completed	1
+[2.6.35.x regression] rcu_preempt_state stall warning and machine slow-downs	1
+2.6.36-rc2-git5: Oops in snd_pcm_substream_proc_status_read()	1
+bdi-default hung waiting for kthread_stop to finish	1
+PM1a registers in MMIO space causes panic	1
+No sound on headphone jack	1
+Probing, false LVDS detection [enabled in VBT but not connected!]	1

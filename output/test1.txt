@@ -1,0 +1,875 @@
+Enabling shared pagetables causes KDE to wierd out	0
+2.5.46 Crash at boot (kernel panic)	0
+proc_pid_readdir() holds the tasklist_lock for excessive periods of time	0
+kernel BUG at mm/slab.c	0
+htree appears to leak memory	0
+Raid-0 causes kernel BUG at drivers/block/ll_rw_blk.c:1996	0
+list of the worst stack offenders in the kernel (from Linus on lkml)	0
+System hang with MySql workload	0
+Oracle9i (Relase 9.2) causes the host server to a hard-hang when DOTS is run against Oracle.	0
+bug@snd_ctl_release	0
+kernel won't release slabcache without prodding	0
+oops at kswapd	0
+ltp doio test gets: kernel BUG at mm/memory.c:769!	0
+Oops in mga_vm_shm_close during X shutdown	0
+Hard hang encountered when DOTS was run against PostgreSQL (7.3.2-1) Linux kernel-2.5.66 on a 4-way	0
+File locking memory leak	0
+2.5.68-mjb2 stops at activating swap	0
+Infrequent lockups on inbound connections	0
+raid1 boot oops	0
+Kernel locks up when heavily using pthread keys (NPTL)	0
+memory leak problem found while running filesystem tests on 2.5.73-mm1 kernel	0
+The harddisk space can't be released after ltp runs if the partition is reiserfs.	0
+file system directory could not be accessed during the stress run directed against a partition  that is SAMBA FS	0
+sym53c8xx_2 oopses	0
+[PATCH] buffer overflow in resource list handling	0
+amd64_agp.c wonkiness - MAX_HAMMER_GARTS wrong on UP	0
+2.6.0-test7 oops in proc_pid_stat	0
+firewire device not found	0
+Badness in alloc_as_io_context	0
+vfat bug on offlined SCSI device	0
+break the loop, if next resource is out of buffer.	0
+via82cxxx cdrom problem	0
+LID switch event storm after swsuspend	0
+SiI 3112 & Asus MBoard & WD Raptor cause complete hang with DMA and heavy load	0
+Bluetooth stack crashes kernel	0
+Kernel hang on heavy disk access, PDC 20376	0
+setsockopt() syscall IP_MSFILTER option logic error leads to leaking kernel memory information	0
+Failures when running epoll test	0
+si_band must be long int	0
+Periodic Journal Flush Insufficient	0
+PUT_ENVP incorrect	0
+NUMA-Q hangs during TSC initialization on boot.	1
+file lock accounting broken	1
+EHCI not properly shut down on reboot, kills usb keyboard in bios/bootloader	1
+USB HCs may have improper interrupt configuration with ACPI in IOAPIC mode	1
+No dri : unsupported Via chipset (device id: 3189)	1
+reproduceable oops in lock_get_status	1
+USB plug/unplug causes device_shutdown to loop forever on reboot	1
+Kernel AGP support needs to be initialized sooner	1
+No sound on TOSLINK output with CS4624 and alsa	1
+2.5.47-ac4 panics on boot.	1
+8139too ifconfig causes oops	1
+ide-scsi causing (Two mice: unwanted double-clicks & erratic behavior)	1
+register_console() called in illegal context	1
+100% reproduceable "null TTY for (####) in tty_fasync"	1
+OHCI-1394: sleeping function called from illegal context at mm/slab.c:1305	1
+af_key has broken sendmsg	1
+IPSEC tunnel mode broken	1
+2.5.47 DIO can't split IO correcly.	1
+RTL8100BL (8139) do not work on acpi UP without local apic	1
+Double unlock in ah.c/esp.c	1
+qconf crashes when setting default NLS	1
+writing to sysfs appears to hang	1
+file remain locked after sapdb process exist.	1
+LTP - gettimeofday02 fails (time is going backwards)	1
+Read from a raid 0 array failed.	1
+gettimeofday cripples system running with notsc	1
+hugetlbfs does not align pages	1
+all mounts oops	1
+Load IDE-SCSI module causes OOPS in 2.5.49	1
+emu10k1 OSS troubles	1
+2.5.50 breaks pcmcia cards	1
+FSID returned from statvfs always 0	1
+error return not checked in register_disk (fs/partitions/check.c)	1
+Impossible to setup MTRR registers	1
+Kernel crashes after stop network and remove e100.	1
+2.5.51 at kb driver leaves kb ib state that prevents (soft) reboot	1
+Broken agpgart on i815 (maybe other ICH too)	1
+mwave init yields: bad: scheduling while atomic!	1
+kernel not honoring init= bootparm	1
+usbdevfs is depreciated message always printed even when usbdevfs is not mounted.	1
+Specifying DMA channel for parport causes oops in dma_alloc_coherent	1
+possible parport/probe.c off by one error from Andy Chou <acc@cs.stanford.edu>	1
+buffer out of bounds in aha1542.c from Andy Chou <acc@cs.stanford.edu>	1
+Possible uninitialised ptr scsi bug from Andy Chou <acc@cs.stanford.edu>	1
+Possible out of bounds bug in sb_mixer.c from Stanford Checker	1
+another possible out of bounds error in sb_mixer.c from Stanford Checker	1
+One more possible out of bounds error in sb_mixer.c from Stanford Checker	1
+Possible out of bounds error in ac97_patch.c from Stanford Checker	1
+ACPI is slowing down machine, high number of interrupts	1
+panic loading ALSA driver for cs4232	1
+Dangerous status when start network (driver is e100).	1
+lots of 'debug: sleeping functions'  with odd CPU speed	1
+cs4232 detects, but writing to dsp gives ENODEV	1
+reading legacy_device_resources gives msg "Unexpected status"	1
+ftruncate() segmentation faulting with nonblocking locks	1
+tty drivers need to set .owner field	1
+Sym 53c416 fails to detect properly with ISAPNP	1
+no cursor in console	1
+hp omnibook 6100: black screen & crash on bootup	1
+RD device shares elevator queue objects	1
+Instant reboot w/ACPI enabled in 2.5.59	1
+Oops in 2.5.59-mjb1	1
+modules load deadlock for SMP, oops for UP	1
+Sonypi halts my laptop when loading	1
+qlogicisp panic shortly after boot in 2.5.59-bk (59 virgin is fine)	1
+dangling else in drivers/char/generic_serial.c	1
+misplaced/extra semicolon	1
+misplaced/extra semicolon drivers/input/joydev.c:343	1
+misplaced/extra semicolon drivers/media/video/w9966.c	1
+misplaced/extra semicolon drivers/net/amd8111e.c	1
+misplaced/extra semicolon drivers/net/tokenring/smctr.c	1
+misplaced/extra semicolon sym53c8xx	1
+misplaced/extra semicolon fs/super.c	1
+misplaced/extra semicolon net/ipv4/fib_hash.c	1
+misplaced/extra semicolon sound/oss/cs46xx.c	1
+misplaced/extra semicolon sound/pci/es1968.c	1
+double logical operator  drivers/char/ite_gpio.c	1
+double logical operator drivers/char/sx.c	1
+double logical operator drivers/net/fc/iph5526.c	1
+double logical operator drivers/scsi/advansys.c	1
+BUG at drivers/scsi/scsi_error.c:1522! loading ServeRaid driver	1
+OSS CS4232 nasty spinlock printks on boot	1
+stripped MD0 splits requests incorrectly	1
+eth0: Too much work at interrupt, IntrStatus=0x0001 at network shutdown	1
+ACPI && SMP -> hard lockup within 5 min.	1
+oops in render_sigset_t with 2.5.61 running SDET	1
+problems with /proc/ide/via	1
+M5451 (OSS trident.c) did not come out of reset	1
+poll on usb device does not return immediatly when device is unplugged	1
+2.5.60/ioctl on usb device returns wrong length	1
+unexpected IO-APIC, please file a report at...	1
+IDE-SCSI : bad: scheduling while atomic	1
+ISAPNP sleeping function called from illegal context	1
+turning off htree causes fsck to complain	1
+Keyboard glitch detected, ignoring keypress	1
+[EHCI] report of first interrupt transfer is delayed	1
+Bad use of GFP_DMA	1
+Bad use of GFP_DMA in S390 drivers	1
+Panic from detach_pid	1
+USB Microsoft IntelliMouse does not work with latest 2.5.63-bk	1
+No USB on 2.5.61, 62 or 63.	1
+ACPI + PCI breaks ISA SoundBlaster	1
+aic7xxx_old does not boot	1
+Failed to register 'sysfs' in sysfs	1
+Badness in Riva framebuffer	1
+cat /dev/fb1 -> null pointer @ fb_open	1
+IDE Changes broke UDMA timings for AMD74xx	1
+Kernel BUG when tun device is closed (oops attached)	1
+2.5.64 Dell Inspiron 5000e heaps of ACPI suspend/resume problems	1
+Apache test framework causes kernel panic in tcp_v4_get_port	1
+Using Raid0 and devfs.. I get VFS unable to mount root	1
+PNPBios blows up hard during boot	1
+SBP2 driver doesn't appear to register a block device?	1
+Root on software raid don't boot on new 2.5 kernel since after 2.5.45	1
+2.5.65-mjb1 kernel BUG at mm/swap.c:299! on boot	1
+poisoned oops in ext3_writepage	1
+Kernel OOPs when tty work timer not deleted	1
+slab error in check_poison_obj(): cache `task_struct': object was modified after freeing	1
+Debug: sleeping function called from illegal context at include/linux/rwsem.h:43	1
+Oops in packet_read_proc	1
+Zip drive parallel-port driver causes segfault in 2.5.x	1
+Logitech USB cordless optical trackball no longer works	1
+conntrack related slab corruption.	1
+fbcon sleeping function call from illegal context	1
+sleeping function in illegal context	1
+Broken cursor when using neofb	1
+Framebuffer Console corrupted	1
+USB storage doesn't work on my Sony Vaio C1VE	1
+Wacom driver doesn't work...	1
+Removing wireless card triggers might_sleep warnings.	1
+unregister_netdevice: waiting for eth0 to become free. Usage count = 0	1
+setkey -DP hangs system	1
+Kernel can't reboot or power-down system	1
+Yenta + ACPI = lockup, unless pci=noacpi	1
+system halt after startx	1
+bad: scheduling while atomic! warning on modprobe airo_cs	1
+ACPI Battery: Not working on Acer Aspire / VIA Chipset	1
+Sound doesn't work with ALSA or OSS	1
+Vesa Framebuffer shows Corrupted Cursor	1
+network device does not survive laptop suspend	1
+Enabling Coda with Devfs causes Kernel Panic	1
+gdth driver broken	1
+system hang on boot at ACPI	1
+2.5.67 won't get the real partition table for hdb	1
+Cannot boot: get VFS cannot mount root on XFS and EXT2 partitions	1
+BUG when running ipcs after huge page shm	1
+warnings on hcd rmmod:  "dangling refs(N) to bus B"	1
+aic7xxx driver hang	1
+Oops on boot in vortex_interrupt with 3c59x	1
+PCMCIA cards in cardbus sockets no longer suspended	1
+USB storage hangs mounting sony memory stick	1
+[perf][sdet]sched_best_cpu does not pick best cpu	1
+[perf][rawiobench] oops when running aio benchmark	1
+AIO not implemented for block devices	1
+can't boot kernel with mem=1/2 memory on multinode x440 with numa enabled	1
+Removal of USB flash drive causes oops in khupd	1
+xirc2ps_cs hangs on shutdown	1
+kernel BUG at ipc/sem.c:1118	1
+oops bad scheduling while atomic	1
+sleeping function called from illegal context	1
+sysfs initialisation failure.	1
+i386 NUMA does not work on non x440/Summit	1
+Badness in kobject_register at lib/kobject.c:288	1
+kernel dies in sighandler when installing a game in winex3	1
+modprobe ipv6 freezes system or crashes with "BUG at module.h:284"	1
+32bit programs don't dump the SSE2 registers when coredumping on x86-64	1
+modules, kernel .text cannot be accessed through /proc/kcore	1
+timing problems on Opteron	1
+change_pageattr corrupts memory (breaks AGP)	1
+slab corruption when mounting ext3	1
+loading emu10k1-gp segfaults	1
+No proper locking on pci device and bus list	1
+USB mouse freezes under X	1
+HID driver causes slab corruption	1
+panic at scsi_io_completion+0x171/0x480 (NULL pointer deref)	1
+Between 2.5.68bk4 and bk5 usb stopped getting interrupt with acpi	1
+Battery info/status query called twice through /proc interface	1
+Consistent crash on kernel startup	1
+Null pointer dereference in ext3_test_allocatable	1
+Changing the CPU frequency using CPUFREQ hangs the kernel	1
+hwclock + rtc + acpi -> dead system	1
+this kernel would not boot for me	1
+btime in /proc/stat wobbles (even over 30 seconds)	1
+smbfs segfault when mounting mountpoint that is in use(?)	1
+ACPI SCI interrupt storm on Tyan Tiger MB in APIC mode	1
+NUMA scheduler hang	1
+vesafb fails to initalize 1GB system memory and 128MB video memory	1
+Some cleanup needed in mach-summit/mach_apic.h, confusion between apicmask and cpumask	1
+Timing related bug in the RPC client code	1
+NMI watchdog lockup on reboot	1
+RAID0 stripe not detected in 2.5.70	1
+Kernel Oops with nfsd.	1
+bug in module parameters causes an oops	1
+umount an nfs volume hangs and oopses	1
+Kernel BUG at mm/slab.c:981	1
+Hard hang after a few days of uptime.	1
+Incorrect NUMA memory reporting	1
+uptime wrong on x86-64	1
+ALSA emu10k doesn't load in 2.5.7[12]	1
+System time runs too fast.	1
+ltp ajdtimex failures	1
+kernel-2.5.72 could not be booted.	1
+defragmentation (apparently xfs_swapext()) fills files with 0s	1
+SETI@Home becomes unkillable	1
+Missing TI PCI1520 ID	1
+tiobench 16threads hangs on ext2	1
+itimer resolution and rounding vs posix	1
+cat /proc/buddyinfo + netstat -a kills machine	1
+BUG at fs/jfs/namei.c:492 assert(!test_cflag(COMMIT_Nolink, ip))	1
+BUG at fs/jfs/jfs_imap.c:959 assert(le32_to_cpu(iagp->wmap[extno]) & mask)	1
+locking over NFS to CFS causes oops in other processes	1
+ReiserFS loopback filesystem seems to freeze with heavy FS activity	1
+Reading from ATAPI CDROM crashes hard	1
+radeon fbdev oopses when watching a picture on the console with fbi	1
+LTP symlink01 test causes oops in 2.5.74-mm2	1
+bad scheduling while atomic and machine hangs with pcmcia and airo 350	1
+bad batch of CD-R discs causes cdrecord kernel oops	1
+Very HIGH File & VM system latencies and system stop responding while extracting big tar  archive file.	1
+Kernel oops with nfs3svc_decode_symlinkargs	1
+Autorepeat storm on USB keyboard resulting in X/matroxfb intermingling on G400 system	1
+Slab corruption	1
+Kernel oops during loading parport_pc module	1
+PPC still has uptime readings of 12000+ days	1
+Enabling CPU freq scaling on VIA Cyrix 3 causes kernel lockup / divide error	1
+sis900 causes Badness in pci_find_subsys at drivers/pci/search.c:132	1
+Booting from software raid causes null pointer	1
+[OSS] loading cs4232 yields "kobject_register failed"	1
+FTP NAT doesn't work in 2.6.0-test1	1
+Oops in raw_rcv_skb if CONFIG_DEBUG_PAGEALLOC=y	1
+Mounting CIFS filesystem generates an oops	1
+System was crashed during hammerhead/apache test (Kernel Oops happened)	1
+System freeze burning with cdrecord	1
+file name error in vfat	1
+wine + DCPlusPlus (dc++) - tcp/ip conn fails	1
+PCMCIA Hardware Lockups on ThinkPad	1
+Onstream DI-30 fails to respond	1
+Presario laptop panic during boot	1
+scsi errors at boot & at +/- random time (Saw underflow (.....) Treated as error)	1
+modprobe pcnet32 (no card) then ns83820 (card present) causes oops	1
+cu -l /dev/ttyS0 got a signal hangup in 2.5 and 2.6.0-test2 kernel	1
+CardBus functions (a) not seen, and (b) misconfigured	1
+ac97 dumps messages on console (but working)	1
+/proc/acpi files appear in /proc after ACPI init failure	1
+file corruption using cryptoloop on ext2/ext3/other file systems	1
+2.6.0-test2: delay timer typo/thinko	1
+ALSA  VIA SOUND DRIVER CHIRPS AND IS DISTORTED	1
+No data gets through pppd 2.4.1 w/2.6 kernel w/compression	1
+acpi related oops and panic	1
+LTP ustat tests break in 2.6.0-test2-mm1	1
+floppy: bad sectors trigger oops and other chaos	1
+ACPI-0345 Error on IBM Thinkpad R40	1
+Kernel hangups when trying to enter S3 or S4	1
+STT20000A Tape drive dma blacklist	1
+pty slaves not appearing in devfs tree	1
+oops performing AIO write with O_DIRECT to block device	1
+Lock-up during CD Audio Extraction via ide-scsi and grip	1
+rmmod floppy sometimes hangs the box	1
+OSS trident.c driver in 2.6.0-test2 locks up the machine on load	1
+Call Trace with ohci-hcd	1
+Wrong filesystem probing order (UDF>ReiserFS)	1
+No sound at console, sound stutters going from X to console	1
+Laptop touchpad does not work; synaptics driver missing	1
+Neither Touchpad nor Pointer work on a Laptop with a Touchpat and a Pointer	1
+(net e100) driver causes dhcp to fail	1
+Kernel panic while initializing HP Smart Array (cciss)	1
+S845WD1-E boot panic unless acpi=off	1
+Unplugging USB MP3 player from causes these printouts. May be related to scsi subsytem.	1
+USB Mouse stops working, need to rmmod/modprobe hid to get it back	1
+File map error	1
+Keyboard does not work at all (laptop)	1
+acpi ignores the 'noapic' boot option	1
+ymfpci load: segmentation error (2.6.0-test3 arjanv RPM)	1
+ACPI options tree inaccessible when SMP off	1
+OPL-3 synth doesn't work on SB16 (isapnp problem?)	1
+Kernel hangs when APIC/ACPI enabled	1
+Kernel oops	1
+Device class '3c59x' does not have a release() function, it is broken and must be fixed	1
+GRE tunnels freeze kernel	1
+non fatal ACPI errors on boot - AE_AML_REGION_LIMIT - Tyan 440BX/PIIX4	1
+IRQ sound issues on 1998 Asus P5AB -- PIC mode	1
+acpi_poweroff fails to power down SMP machine	1
+8139too : Too much work at interrupt	1
+Oops at boottime with ACPI enabled - VIA694	1
+2.4.22 IO-APIC ACPI SCI but no eth0 interrupts	1
+unplugging and then unmounting a USB DoK causes oops in kobj_get_path_length	1
+APCI boot changes BIOS CMOS on Dell PE400SC	1
+print_IO_APIC() is too early in ACPI mode	1
+Broken FAN detection prevents booting	1
+PCI Link programming hangs system if USB - TMTA/ALi - PIC	1
+LTP regression - 2.6.0-test4-mm6 breaks ptmx	1
+usb mouse hangs	1
+Cannot print to my USB Printer: Epson Stylus Color 680 (usblp)	1
+nForce2 hangs in APIC mode, works in PIC mode	1
+Null pointer deref in acpi_pci_link_calc_penalties on boot	1
+NMI during poweroff - 2.4 only - S7505VB2	1
+CAN_MIGRATE broken	1
+Changing link status of the interface up and down gets stuck	1
+Synaptics Mouse Pad is funky on Compaq Presario 2100	1
+Compaq Presario 2100 Laptop Fails to power down/reboot	1
+SCI: irq 20: nobody cared! - ASUS P4T-E	1
+dhcpcd using 100% CPU	1
+Oops with SynCE and Compaq iPAQ 3600	1
+rmmod of ide-scsi results in an oops	1
+[tg3] miscomputing of checksums if icmp pkg > MTU	1
+use O_DIRECT open file, when read will hang.	1
+multi-byte access in indexfields broken	1
+Kernel freeze when setting IP address in via-rhine network driver with ifconfig	1
+Saw underflow	1
+boot hang unless "nolapic" -- ASUS M2400N	1
+bio too big device hdc1 (144 > 128)	1
+snd_via82xx and "Disabling IRQ" "nobody care"	1
+Hard Lockup	1
+USB failure starting in 2.4.23-pre5 on SIS 648 IOAPIC	1
+radeonfb do not correctly detect LCD	1
+System stall on probing uhci-hcd	1
+Trident 4D audio not working	1
+2.6.0-test4, test5, test6 very very slow with smp kernel	1
+cpu sibling map incorrect on x445	1
+packet capturing using PACKET_RX_RING does not work as expected	1
+S3 resume: RTC fails to wakeup system	1
+[8139cp?] 2.6.0-test6 hangs while executing "make menuconfig" on a remote computer	1
+atp870u driver oops	1
+console gets garbled when running X-windows in higher resolution	1
+Sony Cli	1
+sleeping function called from invalid context	1
+ACPICA 20030918 crash on boot -test7 and later	1
+processor.c using byte IO even if DSDT prescribes otherwise	1
+freeze on loading alsa maestro3 driver	1
+no ACPI SCI on Epox KT400 in IO-APIC, noapic works	1
+oops with 2.6.0-test7	1
+parport_pc not releasing all ioports	1
+digi_acceleport.c has bogus "address of" operator	1
+uhci-hcd fails after software suspend	1
+floppy driver hangs machine on IO error	1
+(net e1000) transmit timeout	1
+Not using ide-scsi on DVD drive causes access problems on DVDs	1
+crash on boot on Compaq N620c with acpi-20031002-2.4.22.diff.gz	1
+HighPoint 302 has ATA133 support disabled in the driver	1
+ACPI does not distribute PIC PIRQs	1
+opps on filesystem mount	1
+sleeping function called from invalid context at include/linux/rwsem.h:66	1
+2.6.0-test8 usb-storage cannot initialize Lexar Jumpshot	1
+Lid switch can't wakeup machine from S3	1
+Dell Latitude C600. Freezes on startup (speedstep_init)	1
+promise sata driver not detecting devices	1
+tridentfb doesn't recognize my card	1
+slab error in cache_free_debugcheck() ... memory outside object was overwritten [sd.c vs. MESH]	1
+pcnet_cs doesn't work (fails to RequestIRQ?)	1
+acpi utility triggers an OOPS with 2.6.0-test9	1
+kernel crash reading garbled ACPI table - Dell Precision 410, 610	1
+Panic on ext3 running dbench or tiobench	1
+sound problems from incorrect IRQ routing - IOAPIC + LNK	1
+ACPI-1120: *** Error: Method execution failed ... AE_AML_BUFFER_LIMIT on Compaq X1005EA	1
+ohci1394 call trace error messages	1
+Touchpad scroll wheel problems on Compaq X1005EA 2.6.0-test9 kernel	1
+Poweroff fails on HP OmniBook 500 and other laptops in 2.4.22 and 2.4.23	1
+via82xx.c: invalid via82xx_cur_ptr, using last valid pointer, and lags a few seconds before playing any sound	1
+memory allocated in non-sleeping context	1
+ACPI disables self when started in T30 dock, works w/o dock	1
+nosmp interrupt problems	1
+sg driver will have problems on SAN environment	1
+atyfb: garbled text when overdrawing	1
+machine locks up while accessing NIC	1
+kernel panic when i unplug the ac adaptor on a laptop .	1
+boot panic on Tyan 2707 if acpi enabled	1
+vesa fb conflicts with vga 16	1
+Framebuffer driver doesn't load on systems with > 1G memor (radeon, nvidia)	1
+AGP not working on an EPOX 8RDA3+	1
+axis not working on IBM USB Gamepad	1
+system hang in APIC mode when we install SuSe 9.0 beta 3 on VIA platform	1
+Unalignment access	1
+Correct IRQ attribute returned from PRS or CRS	1
+sony DSC-S30 fails to mount	1
+oops in proc_kill_inodes when file rapidly added and removed	1
+Store(Local0, Local0) generates an error	1
+acpi=off mess /proc	1
+SCSI Driver does not load after compiling/rebooting 2.6-test5 kernel on xSeries 343	1
+No ACPI events in IO-APIC mode, PIC mode works -- VIA694	1
+irq5: nobody cared, when card enabled in 2nd yenta slot	1
+rmmod ohci1394: sleeping function called from invalid context	1
+Linux displays only 1/4 of the screen with vesafb	1
+usb host doesn't wake up after apm suspends	1
+IRQ15 interrupt storm unless pci=noacpi or IOAPIC -- VIA KT600 PIC-mode	1
+disabled PCI Interrupt Link devices.	1
+oops during boot on 4/4 kernel	1
+Oops during boot aic7xxx	1
+S5 transition hangs for IBM R40	1
+umount from disconnected USB causes kernel oops	1
+kernel BUG at mm/slab.c:1708!	1
+oops on boot if ACPI - 2.4 SMP specific - P3/VIA/Award	1
+release locks for error path in acpi_ps_execute	1
+nosmp or "maxcpus=0" fails if ACPI+IOAPIC	1
+S3: enable on SMP	1
+SCI interrupt lost after resuming from S3	1
+Missing PCI devices in ACPI mode; _BBN 0 - Asus PR-DLS/ServerWorks CMIC-LE	1
+slab corruption in 'hpsb_packet'	1
+screen content garbled when using matroxfb on matrox g550	1
+ex_access_region      Region EmbeddedControl(3) has no handler	1
+Centrino's Speedstep is not detected correctly	1
+problem with SMP boot with 2.4.22 and acpi-20031203	1
+kswapd causes oops	1
+divide error at snd_pcm_timer_resolution_change	1
+ASUS SMBUS-Quirk does not work with P4B533-V	1
+UtAllocate 0 length warnings	1
+use an implicit return value - AE_AML_NO_RETURN_VALUE	1
+'ls' on smbfs mount causes oops	1
+Unable to boot SCSI Drive LSI53C1010-33	1
+AE_BAD_PARAMETER returned from ec address space handler.	1
+When booting through INITRD startup script '/linuxrc' doesn't have PID 1.	1
+b44 driver dead-locks system with 2.6.0 kernel upon activation	1
+ohci1394_init debug trace at mm/slab.c:1856	1
+Null pointer in acpi_ex_resolve_multiple	1
+conntrack oops while reading /proc/net/ip_conntrack	1
+passing argument by reference	1
+usb timeout when connecting digital camera	1
+atyfb does not recognise the Rage Mobility-M controller	1
+tridentfb doesn't talk about wrong modes	1
+Computer does not switch off after "Power down" message	1
+Kernel hangs with alsa sound on an acer laptop w/ali m1533	1
+Problem with nanosleep() and ALSA	1
+usb-storage borks out with my camera	1
+Wrong keycodes on a SUN Type 6 USB keyboard	1
+ide-tape sleeping in invalid context	1
+Complete Freeze when using jpilot to sync with a visor (palm os) by USB	1
+kernel hangs on detection of controler	1
+When matrox accelerated framebuffer is loaded, the console becomes unreadable	1
+uhci; serial; Kobil Kaan USB smardcard reader doesn't work	1
+Wrong battery charging/Discharging bits information.	1
+uhci-hcd or hid modules stops working blocking usb mouse and module unloading	1
+ACPI: SCI (IRQ20) allocation failed -- Pentium4HT+865G	1
+stale NFS file handles with 2.6.1 on NFS-mounted /home	1
+Loop device on Raid0 volume	1
+Kernel Oops when initializing (2.6.1, Athlon XP2000+)	1
+ohci1394 crash on AMD64 (SuSE 9.0)	1
+Invalid data on used disk space with NTFS	1
+Kernel panic in drivers/net/fealnx.c interrupt handler.	1
+(net b44) timeout waiting for bit 80000000 of register 428 to clear	1
+NFS file locking problem with 2.6 clients	1
+atyfb - no text in console, broken screen	1
+vga16fb doesn't work properly	1
+2.6.1-mm5: Double fault after registering protocol family 10	1
+2.6.1 fails to mount large iso9660 dvd discs with ATAPI drivers, succeeds with SCSI.	1
+framebuffer problem for silicommotion SM910	1
+When pressing *once* PrintScreen on my PC keyboard it is reported thrice to xev and my window manager which is very anoying!	1
+kernel BUG at mm/mmap.c:1443, with compile load	1
+cs46xx driver mmap_valid 0-->1 in kernel 2.6.x?	1
+Alsa module snd-cs4281 first load fail	1
+power button crashes kernel acpi_ev_gpe_detect()	1
+Kernel oops after suspend/resume	1
+radeonfb init causes kernel oops	1
+2.6.2 kernel panic when using IPSEC	1
+Bug from the mm subsystem involving X	1
+Improper handling of %c in function vsscanf in lib/vsprintf.c	1
+CPUfreq + Athlon Mobile XP 1800+ powernow : bad frequency detection	1
+no fan control	1
+Kernel crash on loading ohci1394	1
+uninitialized spinlock in acpi/ec.c	1
+viewing /proc/net files chrash scheduler	1
+kernel panic on boot	1
+Back scroll on mouse wheel is interpreted as a right button click	1
+(net) Inability to boot >=linux-2.6.2 due to initialization of eth devices	1
+HTB filter on a 802.1q sub interface will drop all packets	1
+acpi ioapic nic etc don't work correctly on Arima W720-K8 (eMachines M6805/M6807)	1
+highmem problem using cryptoloop	1
+nfsd_commit() fails when offset is ~4GB	1
+USB: "invalid interface number "	1
+poweroff regression @ hwsleep 1.21 - ACPICA 20031203	1
+Bug in usbnet driver with CDC Ethernet cable modem if you dual-boot with windows 2000/XP	1
+ip_conntrack crashing box	1
+numbersign (#) key does not work with USB keyboards because it has a wrong keycode	1
+(net r8169) Hard lock due to r8169 gigabit ethernet	1
+Removing 32bit cardbus card causes socket to remain in powered state.	1
+ieee1394 and/or kernel interface for hotplug is broken in mm-sources	1
+ACPI: No IRQ known ... - using IRQ 255	1
+USB-storage with Sony PEG Mass Storage	1
+ALSA Trident/SiS7018 driver stopped working with SiS7018	1
+oops in psmouse_reconnect after Suspend to disk (ACPI S4/swsusp)	1
+MCE on return from S3 - Toshiba Satellite Pro M15-S405	1
+OOPS while playing with sensors-detect on a preempt kernel	1
+capset01 test fails on 2.6.3 kernel	1
+mount -t cifs: kernel Oops, + smbfs segmentation fault	1
+acpi poweroff trouble	1
+uncorrectly enabling GPEs	1
+ioapic+shared interrupt+concurrent access=ide lockup	1
+Failed to login on 2.6.3 kernel with patch-2.6.3-mjb1.7	1
+vc_resize do not copy data from origin screen buffer to new buffer correctly	1
+Kernel Panic with HPT374 and solution!	1
+Critical ppp /dialup problem.	1
+USB printer problem on AMD64	1
+system crash - PCI/USB related	1
+sym53c8xx: too noisy during domain validation / lacks boot parameter to turn wide transfers off	1
+ltp test gettimeofday01 segfault with vsyscall-gtod	1
+vesafb: the monitor loses the signal after the program ends (links)	1
+Asus PCDL Deluxe + 2 x Xeon + HT enabled + SATA? = system freeze	1
+irq 11: nobody cared! - UHCI on IRQ11 disabled by e100 on IRQ19 - VIA Apollo Pro 133,266, Pentium III	1
+Firewire detected properly, but does not work.	1
+bttv tuner.c bug: can't get tv signal anymore	1
+Serious disk corruption with HPT374	1
+radeonfb displays strange stuff at boot time and doesn't erase screen correctly	1
+Bad: Scheduling while atomic	1
+can't mount camera	1
+Kernel crash when moving huge files	1
+PROBLEM: snd-intel8x0 mmap mode stuttering	1
+System Clock Losses time -- severly 70% 'tick' loss	1
+kernel BUG at kernel/printk.c:568 !	1
+2.6.4-mm2 oopses on boot	1
+No ACPI button after sucessfull S3 resume on L3800C (nb not duplicate of 1409, 1661)	1
+Can't eject Aironet 350 PCMCIA card (device busy)	1
+yenta kills uhci and cardbus on boot	1
+Radeon framebuffer is a mess	1
+Core Dump when shareing files with SUN automounter	1
+AE_NOT_ACQUIRED unless pci=noacpi	1
+kernel BUG at inode.c:334!	1
+PM timer runs too fast	1
+acpi is unable to see my battery - thinks there is no battery when there is	1
+raid0 fails to start	1
+cannot mount HD, or interact with hardware	1
+Method execution failed [_PRW] ACPICA 20040326 regression	1
+bit 4 of Byte 3 in IRQ descriptor is missing	1
+IRQ15 -> 0:15 -> 0:15	1
+add-in PCI-bridge card gets no interrupts	1
+USB ehci module load:  segmenation fault after resume	1
+[perf] lock contention on write workload	1
+2.6.4-rc3 OOPSes on insertion/removal of bluetooth dongle	1
+touchpad with psmouse.proto=imps doesn't recognize tap event	1
+kernel panic on rmmod acpi modules due to /proc references	1
+SATA fails in PIC mode, okay in APIC mode -- Abit VIA	1
+Toshiba acpi driver didn't use acpi-disabled	1
+cdc_acm not creating /dev/usb/acm/0	1
+SNDRV_DMA_TYPE_PCI should be SNDRV_DMA_TYPE_DEV ... breaks sparc audio	1
+scheduling and maybe disk-io/cache flushing problem with ext3	1
+no notify event when ac goes off-line or comes on-line	1
+3c905C won't do faster than 10bT HD	1
+Forcedeth - no link during initialization	1
+AMD Elan sc520 watchdog does not work on TS-5500	1
+poweroff on boot if kernel >2.6.0-test9 - Asus laptop	1
+aic7xxx hangs system	1
+interrupt source override ineffective - ES7000	1
+Hard lockup, freeze, hang, deadlock	1
+PS/2 mouse problem	1
+Paralell port ZIP drive 100 dosen't work with 2.6.5	1
+Loading Firewire driver causes badness	1
+LAPIC timer loses time if C3 enabled	1
+wrong irq rouing on centrino laptop - PIC	1
+atapi devices don't work with nforce2	1
+IRQ21 flood on nForce2 any time IRQ21 is active	1
+Can set all but active[2] temperature via trip_points	1
+kernel dump when unplugging device	1
+kernel panic removing bluetooth device	1
+kernel parameter acpi_os_name= does not work	1
+Oops when mounting a smb filesystem	1
+No ACPI Events after Suspend	1
+ACPI-CA 20040402 GPE handling causes immediate wake on Thinkpads	1
+msync() does not update the st_mtime and st_ctime fields	1
+sleeping function called from invalid context at drivers/block/ll_rw_blk.c:1148	1
+Re: hdc: lost interrupt ide-cd: cmd 0x3 timed out ...	1
+[OPERA] potential error detected by an analysis tool	1
+[OPERA] potential error detected by an analysis tool	1
+[OPERA] potential error detected by an analysis tool	1
+[OPERA] potential error detected by an analysis tool	1
+[OPERA] potential error detected by an analysis tool	1
+Kernel Crash; Could be related to quotas on ext3	1
+pcnet32 on fibre fails to get link after unplug/plug	1
+Hard system lockups A7N8X Mainboard and Promise Ultra100TX2	1
+(IRDA) spin_lock already locked in sir_dev.c	1
+Synaptics touch pad not recognized under 2.6.X Kernels on Sharp MM20	1
+bad string fetches (break usbnet)	1
+bttv: process related lock can occur when interrupting a video capture.	1
+virtual console unusable	1
+unload "button" module -> "kernel BUG"	1
+Missing locks in video1394_ioctl	1
+S3 wakeup hangs, S1 works - VIA KT400A	1
+speedstep-centrino oopses on Asus M2400N w/ kernel 2.6.6	1
+[patch] radeonfb powerdown doesn't work	1
+QoS hangs when inserting an invaid ip filter	1
+floppy.c: major-minor does not change, minor always 0; floppy=nil, floppy1 only valid device	1
+USB and PS/2 keyboard at boot, PS/2 does not initialize	1
+System noise when using kernel 2.6	1
+Kernel panic on boot: Attempted to kill the idle task!	1
+Region SystemMemory(0) has no handler	1
+Fix acpi=ht in x86_64	1
+Panic on HT laptop with no AC power (on batteries)	1
+posix_locks_deadlock() loops infinitely	1
+2.4.27-pre3 IRQ regression - IOAPIC SCI override	1
+SCI override to 2nd IOAPIC disables interrupt on 1st IOAPIC	1
+2.6.6 crashes	1
+ac_adapter and battareys dasn.	1
+Oops in usb code at kernel init	1
+timer + fpu stuff locks my console	1
+resuming from s3 affects stability of the interrupts	1
+Could not suspend device 0000:00:1d.7: error -5	1
+Bug in fs/sysfs/file.c causes hald (Project Utopia) to crash when wlan adapter (driver: ipw2100) turned off	1
+Nforce Ethernet doesn't work	1
+kernel 2.6.7 - computer locks at boot with ACPI	1
+nfsd: page allocation failure.	1
+system hang while using Mozilla Firefox 0.8	1
+oops at pcmcia card removal	1
+Boot crash w/ CONFIG_SCHED_SMT - Intel P865PERL	1
+No Cardbus cards shown by lspci	1
+After mount/umount, cdrom won't eject or be opened by button	1
+vortex: IRQ fifo error, and Oops	1
+USB OHCI_HCD locks up, and councels URB, and won't detect more USB devices.	1
+(net Tulip) new PCI ID	1
+how to make ns558 oops	1
+Asus BIOS doesn't activate ICH4 SMBus device	1
+After suspend new processes get old start time	1
+(net tg3) driver lacks state 4 suspend	1
+EBDA region doen't be reserved which cause scan RSDP failed	1
+Since the update of sym-2.1.18i to sym-2.1.18j in 2.6.6, the kernel stops booting	1
+might_sleep warning when setting up IPSec with IPCOMP	1
+speedstep-ich Oops error with Mobile P4 HT	1
+APIC error - Only one CPU initialised	1
+deadlock when resume from s3	1
+DMA timeout error	1
+Tyan Thunder K7 hangs on shutdown / reboot	1
+IOAPIC interrupt lost after S3	1
+issue with core dump owner	1
+ACPI conflicts with i2c-viapro	1
+ehci "fatal error" at startup	1
+kernel BUG in call_console_drivers at kernel/printk.c:422	1
+Bug in drivers/pcmcia/soc_common.c	1
+/proc/bus/usb/devices stall	1
+reBoot and powerOff functions in SysRq does not work anymore	1
+ens1371 doesn't survive ACPI S3 suspend/resume cycle	1
+IPSEC triggers "bad: scheduling while atomic!" errors.	1
+(net de2104x) Kernel panic with de2104x tulip driver on boot	1
+acpi processor module needs to stay loaded for powernow-k8	1
+kernel BUG at fs/ext3/balloc.c:942!	1
+irq 9: nobody cared! (audio related - via82xx)	1
+tg3 fails with 'HW autoneg failed'	1
+NFS server hangs because of read access that is not multiple of PAGE_SIZE	1
+Debug: sleeping function called from invalid context at mm/slab.c:1989	1
+ODD transfer in DATA IN phase - inquiry failed	1
+Power down blanks screen but no power off unless no LAPIC - Lattitude D600	1
+ac module not being notified of power status change	1
+kernel init/setup parameters with double quotes don't work.	1
+USB OHCI fails to suspend	1
+(net tlan) receives interrupt for uncompleted RX frame during heavy network load or after a random period of time.	1
+USB HC TakeOver failed! on JVC MP-XP72[35]0 laptops	1
+TC crashes my Kernel 2.6.8.1, but do not crash my kernel 2.6.7!!!	1
+Kernel does assign wrong IRQ to device driver - VIA quirk	1
+System hangs during boot	1
+usbhid problem with bluetooth keyboard/mouse	1
+Killing process using ncpfs makes mount unusable	1
+Problem reading /proc/acpi/battery/BAT0/info	1
+(sata promise) Maxtor / Promise SX2 libata hard lockup w/ two SATA disks used at same time	1
+ACPI_FUNCTION_TRACE() missing return's	1
+PCI interrupts set up incorrectly due to platform GSI override	1
+PCI slot is not working on ES7000 due to PCI irq 0	1
+S3 state hang the machine	1
+DAC960 and sym2 driver conflict	1
+functional but not present; setting present is wrong	1
+IDE CD-ROM does not correctly handle the end of media for some CD-R/CD-RW	1
+set_rtc_mmss functioin smp deadlock	1
+No parallel recognition at boot time	1
+S3 wake fails: phys vs. virtual wake vector -  IBM X40	1
+(net axnet_cs) PCMCIA network interface (axnet_cs driver) stops working on fast incomming data	1
+Closing laptop lid on >=2.6.9-rc1 == freeze	1
+xtime value is incorrect	1
+passive mode is not left, once entered	1
+kernel BUG at mm/rmap.c:407!	1
+auto reboot while booting w/ SMP when HT enabled on dell dimension 4600i	1
+BUG() in dio_new_bio() with fsx tests	1
+[Patch] Update fs/nls/nls_cp936.c (Chinese codepage)	1
+Time suspend/resume incorrectly open IRQ	1
+S3 resume: PCI Interrupt Link Device oops	1
+Wrong DMA mode selected (PIIX3)	1
+Device nodes on Sun x86 UFS filesystems have wrong major/minor numbers	1
+neofb: screen corruption under back/forward space	1
+Adaptec I2O SCSI driver dosen't work	1
+dump core while /dev/mem mapped	1
+Got some NF_IP_ASSERT failures	1
+call of _INI on _VGA device in acpi_ns_init_one_device never returns on nx9005	1
+NULL pointer dereference whilst bringing up loopback device.	1
+cdu31a - Oops when mounting a CD	1
+(sata sii) mod15 quirk with Seagate ST3120026AS	1
+2.6.8-2.6.9 regression(hang when laptop lid is closed)	1
+Missing Sleep State object on Thinkpad 600x	1
+/proc/bus/usb/devices gets corrupted when a USB keyboard is used	1
+Alps touch pad not seen	1
+CPU at 100% when burning audio cds	1
+disable ACPI timer override on Nvidia  i386	1
+S3 no video - HP Pavilion ZE4201	1
+Legacy (BSD) ptys broken with kernel 2.6.9	1
+problem with usb psx pad adaptor	1
+boot freeze after shutdown (seems to wake up from suspend on reboot)	1
+S3: suspend hang - HP/Compaq nx7010/nw8000/nx5000, Compaq Presario X1000	1
+Cpu recognization fails after upgrade from 2.6.7 to 2.6.9	1
+snapshot creation fails to allocate a page	1
+Implement ACPI 3.0 Timer function	1
+kernel BUG at mm/rmap.c:474!	1
+LAPIC-mode poweroff on Dell D600	1
+using smp_processor_id() in preemptible code: named/1119	1
+ACPI-1133: *** Error: Method execution failed [\_SB_.PCI0.PIB_.EC0_._Q20] (Node cfc0b4c0), AE_AML_UNINITIALIZED_LOCAL	1
+poweroff no longer switch off the machine but reboots	1
+S3 resume: no video - Sony S1XP	1
+Device 'i823650' does not have a release() function	1
+Wrong temperature and battery status when running on battery	1
+sym53c8xx_2 SMP deadlock on driver load	1
+SCSI generic driver (sg) BUG(): direct I/O + exit()	1
+S3 resume - audio stops - Asus S5609N	1
+Problem with USB 1.1 Storage plugged in USB 2.0	1
+ata_piix not creating devices when compiled into kernel	1
+HID interface to the device Creative Wireless 6000 broken. Mouse jags.	1
+via-usb2: can	1
+Kernel 2.6.9 crashes when USB burner plugged off. 2.6.7 works fine.	1
+Wrong CPU flags on Cyrix MII CPU	1
+2.6.7-rc1 to 2.6.10-rc2 hang occasionally - no network, no sysrq	1
+getkeycodes and setkeycodes fail with ENODEV	1
+neofb: screen corruption	1
+Badness in cfq_put_request at drivers/block/cfq-iosched.c	1
+Kernel OOPS on running fsstress test on ext3 file system	1
+map I/O-memory ,system hangs on 2.6 (2.4.18 is o.k!)	1
+i2c or kobject? therm_adt746x in 2.6.10-rc2 cause kernel panic on powerbook g4	1
+unable to grab dv film through 1394 dv driver	1
+tridentfb console at 16 bpp appears in funny colours	1
+burst-mode EC	1
+(net sk98lin) driver fails on all kernels post 2.6.7	1
+Lid button freezes Gericom 1460 laptop	1
+(sata ahci) HDD light remains lit constantly when using AHCI SATA Driver	1
+pty race condition in 2.6 kernel on SMP machine	1
+X crashes with inappropraite control error	1
+pnpacpi rsparser bug	1
+Few errors in pktgen.c	1
+broken module aliases in ieee1394 drivers	1
+Failed to acquire semaphore ACPI_MTX_HARDWARE	1
+APIC error when going into S3	1
+disabling IRQ #19 - non-shared irq	1
+(net 8390) possible wrong register offset in 8390 driver	1
+(net bonding) Not correct work function ARP Monitoring. Broken link.	1
+radeonfb: Laptop Panel gets black on switch to frame buffer device 175x65	1
+PnP drivers sets up legacy interrupts incorrectly on ES7000	1
+oops when reading some FAT directories containing CJK filenames	1
+w83627hf and w83781d  don't create entries in sysfs	1
+Plug and Play ACPI breaks sound	1
+Failure to detect Master and Slave drives using firewire	1
+assertion failed at net/ipv6/addrconf.c, plus halt fails	1
+Incorrect parameters handling in pktgen.c.	1
+input: AT Translated Set 2 keyboard on isa0060/serio0	1
+a kexec patch causes poweroff to hang on some computers	1
+'SIOCSIFADDR: Cannot allocate memory' error after 'ifup sit0'	1
+kernel panic in net/ipv4/tcp_output.c:924	1
+fan will start when cpu is hot but will never stop, even if cpu is cold an fan blows cold air.	1
+(net skfp) Syskonnect FDDI SK-5544 not working	1
+Random "kernel BUG at mm/page_alloc.c:318!"	1
+ACPI does not work anymore (AE_AML_NO_OPERAND)	1
+Permission denied on client when attempting to mount XFS via NFS	1
+sbp2/scsi emulation broken	1
+Errors in hash_dst() and hashlimit_match functions (ipt_hashlimit.c)	1
+nls_cp936.c is not synchronized with M$'s translation table	1
+ide_optical type is shown as UNKNOWN in /proc/ide/*/media	1
+pc speaker recognized like a keyboard	1
+Dell hardware signature not recognised by i8k module	1
+Adds time suspended to system clock	1
+Incomplete core files when size is > 2GB	1
+pcnet32 fiberoptic do not works on Allied Telesyn 2701FTX	1
+Error evaluating _BST when trying to read battery status on Asus W3400N	1
+some devices still fail to do PPR	1
+Kernel Panic 2.6.5 FC2 smp amd 64	1
+KERNEL: assertion (!atomic_read(&sk->sk_rmem_alloc)) failed at net/netlink/af_netlink.c (122)	1
+system reset when battery is read and i8xx_tco driver loaded	1
+AE_AML_BUFFER_LIMIT - D865GBF	1
+ADM1021 Driver Does not report remote Temp alarms.	1
+pktcdvd packet-writing device suffers from data corruption	1
+swsusp fails to suspend if CONFIG_DEBUG_PAGEALLOC is also enabled	1
+tridentfb: flicker when disk I/O is happening	1
+S4 reboots machine when AC is connected	1
+HPFS support is broken on amd64 platform	1
+it87.c: bad detection of it8712f-a  chip	1
+ATI Rage 128: messed up X	1
+EC address handler is wrong	1
+savavgefb ddc eeprom oops when "sensors" used as non-root	1
+snd_emu10k1 oops'es with Audigy 2 and various kernels >2.6.11	1
+acpi_get_firmware_table return an invalid block of memory	1
+With HT off in bios, /proc/cpuinfo shows2 processors, each with 2 siblings	1
+AT keyboard : right "windows" key doesn't work any more	1
+(sata) panic spin_lock already locked	1
+S1 suspend/resume resets thermal limits -- TP 600X	1
+(sata sii) bug in libata-core with sata_sil	1
+(net via_velocity) receiver hang after setting mtu >1500	1
+first joystick button mapped to extra number	1
+tridentfb with ACCEL leaves artefacts when scrolling	1
+sleeping function called from invalid context at kernel/workqueue.c:264	1
+atomic counter underflow in smbfs	1
+cdc_acm oops on audiovox 9900 if usb disconnect while in pppd call	1
+S4 resume hang -- sk98  & snd_intel8x0 -- Asus L5D	1
+(net tulip) Problem with 6 bit addressing in tulip_read_eeprom()	1
+Problems with Intel ICH6-M Sonoma Chipset and IDE / SATA Conflicts	1
+(net de2104x) PCI memory address incorrectly (?) sign extended	1
+Processor C states not working with 2.6.11.6 - ASUS M6Ne	1
+Losing keypresses, ghost presses, synch problems with keyboard when using leds	1
+gettimeofday02 failed with 2.6.11-mm4 on ppc64	1
+readv/writev failures in kernel 2.6.11-mm4 on RHEL4	1
+2.6.12-rc6:  Unplugging/replugging USB Logitech headset when in use busts USB, kills keyboard	1
+usb0 not appearing when loading usbnet driver	1
+message queues broken in 2.6.12-rc2 (x86-64)	1
+FPU registers corrupt after S3	1
+acpi_ec_leave_burst_mo: ------->status fail or  " acpi_ec_space_handler: bit_width should be 8"	1
+[OPERA] Potential bug detected in /drivers/video/sis/sis_main.c	1
+[OPERA] Potential bug detected in /drivers/media/video/saa7134/saa7134-video.c	1
+[OPERA] Potential bug detected in fs/xfs/quota/xfs_trans_dquot.c	1
+(net pcnet32) don't follow module options pass at the boot	1
+cfq scheduler lockup: NMI oops while running ltp - 20050207  on 2.6.12-rc2-mm3 with kdump enabled	1
+cdrecording fails	1
+Random crashes when generating a lot of I/O load	1
+I/o errors when trying to write to usb mp3 player philips hdd065 with kernel 2.6.11 (but not with 2.4.22)	1
+hda: lost interrupt when resuming from S3 - Sony VGN-T1XP	1
+AE_TIME - Battery not recognized at bootup - PCG-FR215E	1
+USB driver visor produces kernel oops when syncing with Palm	1
+Fail of frecuency on NSC Geode 233Mhz	1
+serio driver inconsistent use of  names	1
+Crashes after resume with Savage DRI	1
+System hang while running stress test on RHEL4 with kernel 2.6.12-rc1-mm4	1
+Test server hang while running rhr (network) test on RHEL4 with kernel 2.6.12-rc1-mm4	1
+kdump failed to boot properly on manually causing Panic, Issue with driver hardening	1
+lockd: Server callback procedure NLM_GRANTED is replied LCK_DENIED	1
+tulip crash at modprobe with ULi M5263 integrated controller (PCI ID 5263)	1
+oops when apps that are using alsa exit	1
+ACPI battery monitor does not work	1
+[2.6.12-rc4-mm2] oops at log_do_checkpoint+0xa1/0x230	1
+fault to change cpu freq.	1
+Boot hang due to BIOS reporting phantom 2nd IOAPIC - Acer Travelmate 3002, 915gm Chipset	1
+Newisys AMD box hasn't booted since 2.6.12-rc2	1
+ACPI - System hang, loss of keyboard, Controller using wrong IRQ	1
+Asus A7N8X will not wake from S3	1
+Oops while getting off files off of an iPod with hfsplus filesystem (USB connection)	1
+Oops: 0002 [#1] Unable to handle kernel paging request at virtual address 2d646d2f	1
+cardbus fault to start	1
+intel865: Cannot remap FB region.	1
+Avoid loading of ACPI tables twice - fix attached	1
+kernel panic (oops) when accessing > 40,000 files on an  ext3 filesystem	1
+loading of acpi processor.ko module hangs/freezes system instantly	1
+libata-core Kernel Crash	1
+Screen appears at mid-right section	1

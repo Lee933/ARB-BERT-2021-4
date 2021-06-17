@@ -7,8 +7,9 @@ Experimental operation
 3. The dataprocess.py is used to divide the original data into data sets, uncomment the corresponding part of the code when generating the corresponding test set and verification set, run the code, and generate test.txt, dev.txt, train.txt and class.txt of the training model . Then,we need to import these four files into the data folder.  
 4. The dataprocess-compare.py generates the data set of the comparison experiment, and the method is the same as above.   
 5. The dataprocess-2team0920-component.py is used to generate the data set of the ARB-BERT variant method.  
-6. The 2berttrain.py is used to train the Bert model and perform Bert fine-tuning, and output the classification results.  
-7. We set the hyperparameter value in bert.py and modify the code line's value to change the hyperparameter value we need, for example, set Epoch==50.      
+6. We optimized the data preprocessing code, using predeal_data.py can directly generate the 25 data sets we need for training the model.  
+7. The 2berttrain.py is used to train the Bert model and perform Bert fine-tuning, and output the classification results.  
+8. We set the hyperparameter value in bert.py and modify the code line's value to change the hyperparameter value we need, for example, set Epoch==50.      
 
 Experimental environment configuration  
 ----
